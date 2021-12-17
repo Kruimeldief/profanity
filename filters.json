@@ -17,7 +17,7 @@
       "modAction" : "KICK_REVIEW",
       "list" :
         [["horne", "horny", "wet"],
-        ["girl", "boy", baby"]]
+        ["girl", "boy", "baby"]]
     },
     "4" : {
       "modAction" : "BAN_REVIEW",
@@ -28,7 +28,7 @@
         ["nordvpn", "vpn", "ip"]]
     }
   },
-  "nameFilter" : ["cumsock", "niggers", nickgerse", "..."],
+  "nameFilter" : ["cumsock", "niggers", "nickgerse", "..."],
   "wordFilter" : {
     "KICK" : ["fcking", "testicle", "fhim", "..."],
     "KICK_REVIEW" : ["fcking", "testicle", "fhim", "..."],
