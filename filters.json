@@ -1,25 +1,25 @@
 {
-  "sentencesFilter" : {
-    "1" : {
+  "sentencesFilter" : [
+    {
       "modAction" : "KICK",
       "list" :
         [["hate", "i hate", "ihate"],
         ["black", "white", "asian"],
         ["people", "women", "peeps"]]
-     },
-    "2" : {
+    },
+    {
       "modAction" : "KICK",
       "list" :
         [["your", "ur", "yur"],
         ["father", "mother", "momma"]],
     },
-    "3" : {
+    {
       "modAction" : "KICK_REVIEW",
       "list" :
         [["horne", "horny", "wet"],
         ["girl", "boy", "baby"]]
     },
-    "4" : {
+    {
       "modAction" : "BAN_REVIEW",
       "list" :
         [["use", "download", "change to"],
@@ -27,13 +27,13 @@
         ["", "different", "new"],
         ["nordvpn", "vpn", "ip"]]
     }
-  },
+  ],
+  "whitelist" : ["titles", "title", "balz", "kumm", "..."],
   "nameFilter" : ["cumsock", "niggers", "nickgerse", "..."],
   "wordFilter" : {
     "KICK" : ["fcking", "testicle", "fhim", "..."],
     "KICK_REVIEW" : ["fcking", "testicle", "fhim", "..."],
     "BAN" : ["fcking", "testicle", "fhim", "..."],
     "BAN_REVIEW" : ["fcking", "testicle", "fhim", "..."]
-  },
-  "whitelist" : ["titles", "title", "balz", "kumm", "..."]
+  }
 }
