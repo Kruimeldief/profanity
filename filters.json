@@ -11,7 +11,7 @@
       "modAction" : "KICK",
       "list" :
         [["your", "ur", "yur"],
-        ["father", "mother", "momma"]],
+        ["father", "mother", "momma"]]
     },
     {
       "modAction" : "KICK_REVIEW",
