@@ -2,7 +2,7 @@
   "__comment" : [
     "- CTRL + F a modAction or filter to find your correct filter.",
     "- sentenceFilter will be added to linked wordFilter in the script.",
-    "- wordFilter is applied to both messages and player names.",
+    "- wordFilter is applied to both messages and player names. So player can be banned for player name.",
     "- nameFilter is applied only to player names.",
     "- sentenceFilter can contain endless objects {'modAction', 'list'}.",
     "- whitelist contains false-positives that need to be filtered.",
