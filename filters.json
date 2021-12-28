@@ -3,7 +3,7 @@
     "- CTRL + F a modAction or filter to find your correct filter.",
     "- sentenceFilter will be added to linked wordFilter in the script.",
     "- wordFilter is applied to both messages and player names. So player can be banned for player name.",
-    "- nameFilter is applied only to player names. This filter will only kick.",
+    "- nameFilter is applied only to player names. This filter will only kick. Later versions may have a separated modAction if necessary.",
     "- sentenceFilter can contain endless objects {'modAction', 'list'}.",
     "- whitelist contains false-positives that need to be filtered.",
 		"- Filtered words of 2 or less characters are not used (whitelist excluded)."
