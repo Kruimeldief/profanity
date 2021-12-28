@@ -5,7 +5,8 @@
     "- wordFilter is applied to both messages and player names.",
     "- nameFilter is applied only to player names.",
     "- sentenceFilter can contain endless objects {'modAction', 'list'}.",
-    "- whitelist contains false-positives that need to be filtered."
+    "- whitelist contains false-positives that need to be filtered.",
+		"- Filtered words of 2 or less characters are not used (whitelist excluded)."
   ],
   "sentencesFilter" : [
     {
