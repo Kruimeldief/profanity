@@ -8,7 +8,8 @@
         "- whitelist contains false-positives that need to be filtered.",
         "- Filtered words of 2 or less characters are not used (whitelist excluded)."
     ],
-    "__Modactions": ["NONE", "KICK", "KICK_REVIEW", "SOFT_BAN", "SOFT_BAN_REVIEW", "HARD_BAN"],
+    "__modActions": ["NONE", "KICK", "KICK_REVIEW", "SOFT_BAN", "SOFT_BAN_REVIEW", "HARD_BAN"],
+    "__filters": ["wordFilter", "nameFilter", "whitelist"],
     "sentencesFilter" : [
         {
             "filter" : "wordFilter",
