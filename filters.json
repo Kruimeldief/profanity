@@ -73,9 +73,9 @@
             "filter" : "nameFilter",
             "modAction" : "KICK",
             "list" :
-            [["", "suck", "sock", "seck", "ligma", "sugma", "sug", "lick", "lig"],
-            ["", "my", "me"],
-            ["", "cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts"]]
+            [["", "suck", "sock", "seck", "sug", "lick", "lig", "jerk", "touch", "fap"],
+            ["", "my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma"],
+            ["", "cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "d", "dick", "dicc", "penises"]]
         }
     ],
     "whitelist" : [
@@ -666,7 +666,6 @@
             "nignog",
             "meinkampf",
             "cumming",
-            "pene",
             "pu$$y",
             "$hit",
             "fanny",
@@ -1616,7 +1615,6 @@
             "ordare",
             "orgy",
             "oxmassive",
-            "peni",
             "padofile",
             "padophile",
             "paedofile",
