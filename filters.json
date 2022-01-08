@@ -54,8 +54,8 @@
             "filter" : "nameFilter",
             "modAction" : "KICK",
             "list" :
-            [["", "black", "white", "yellow", "brown", "cute", "hot", "pretty", "beautiful", "young", "dirty", "teen", "tween", "pre", "single", "thick", "lonely", "love", "naked", "nude", "looking4", "looking for", "need", "need for", "hawt", "thic", "thicc", "bad", "jealous", "popular", "interested", "interesting"],
-            ["girl", "boy", "gal", "guy", "woman", "man", "person", "pervert", "hottie", "tomboy", "peep", "peeps", "peepz", "baby", "milf", "dilf", "girf"]]
+            [["black", "white", "yellow", "brown", "cute", "hot", "pretty", "beautiful", "young", "dirty", "teen", "tween", "pre", "single", "thick", "lonely", "love", "naked", "nude", "looking4", "looking for", "need", "need for", "hawt", "thic", "thicc", "bad", "jealous", "popular", "interested", "interesting"],
+            ["girl", "boy", "gal", "guy", "woman", "man", "person", "pervert", "hottie", "tomboy", "peep", "peeps", "peepz", "baby"]]
         },
         {
             "filter" : "nameFilter",
@@ -158,6 +158,9 @@
     ],
     "nameFilter" : {
         "KICK" : [
+            "milf",
+            "dilf",
+            "girf",
             "[staff]",
             "hoe",
             "anus",
