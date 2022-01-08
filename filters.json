@@ -11,6 +11,14 @@
     "sentencesFilter" : [
         {
             "filter" : "wordFilter",
+            "modAction" : "BAN",
+            "list" :
+            [["kill", "murder", "stab"],
+            ["", "all", "them", "those", "these", "this", "that"],
+            ["jew", "jews", "africans", "nigs", "niggers", "nggr", "asians", "asian", "whites", "cracker", "crackers"]]
+        },
+        {
+            "filter" : "wordFilter",
             "modAction" : "KICK",
             "list" :
             [["hate", "i hate", "ihate"],
@@ -1802,7 +1810,10 @@
             "zoommeeting"
       ],
       "KICK_REVIEW" : [],
-      "BAN" : [],
+      "BAN" : [
+          "nigger",
+          "hitler"
+      ],
       "BAN_REVIEW" : []
     }
   }
