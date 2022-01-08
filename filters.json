@@ -8,10 +8,11 @@
         "- whitelist contains false-positives that need to be filtered.",
         "- Filtered words of 2 or less characters are not used (whitelist excluded)."
     ],
+    "__Modactions": ["NONE", "KICK", "KICK_REVIEW", "SOFT_BAN", "SOFT_BAN_REVIEW", "HARD_BAN"],
     "sentencesFilter" : [
         {
             "filter" : "wordFilter",
-            "modAction" : "BAN",
+            "modAction" : "SOFT_BAN",
             "list" :
             [["kill", "murder", "stab"],
             ["", "all", "them", "those", "these", "this", "that"],
@@ -34,7 +35,7 @@
         },
         {
             "filter" : "wordFilter",
-            "modAction" : "BAN_REVIEW",
+            "modAction" : "SOFT_BAN_REVIEW",
             "list" :
             [["use", "download", "change to"],
             ["", "a", "the"],
