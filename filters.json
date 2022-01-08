@@ -656,8 +656,9 @@
             "fetsmel"
         ],
         "KICK_REVIEW" : [],
-        "BAN" : [],
-        "BAN_REVIEW" : []
+        "SOFT_BAN" : [],
+        "SOFT_BAN_REVIEW" : [],
+        "HARD_BAN" : []
     },
     "wordFilter" : {
         "KICK" : [
@@ -1809,10 +1810,11 @@
             "zoommeeting"
       ],
       "KICK_REVIEW" : [],
-      "BAN" : [
+      "SOFT_BAN" : [
           "nigger",
           "hitler"
       ],
-      "BAN_REVIEW" : []
+      "SOFT_BAN_REVIEW" : [],
+      "HARD_BAN" : []
     }
   }
