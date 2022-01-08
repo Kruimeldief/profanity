@@ -9,7 +9,7 @@
         "- Filtered words of 2 or less characters are not used (whitelist excluded)."
     ],
     "__modActions": ["NONE", "KICK", "KICK_REVIEW", "SOFT_BAN", "SOFT_BAN_REVIEW", "HARD_BAN"],
-    "__filters": ["wordFilter", "nameFilter", "whitelist"],
+    "__filters": ["wordFilter", "nameFilter"],
     "sentencesFilter" : [
         {
             "filter" : "wordFilter",
