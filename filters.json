@@ -2,9 +2,9 @@
     "__comment" : [
         "- CTRL + F a modAction or filter to find your correct filter.",
         "- sentenceFilter will be added to linked wordFilter in the script.",
-        "- wordFilter is applied to both messages and player names. So player can be banned for player name.",
-        "- nameFilter is applied only to player names. This filter will only kick. Later versions may have a separated modAction if necessary.",
-        "- sentenceFilter can contain endless objects {'modAction', 'list'}.",
+        "- wordFilter is applied to both messages and player names.",
+        "- nameFilter is applied only to player names.",
+        "- sentenceFilter can contain endless objects {'filter': '', 'modAction': '', 'list': [[]]}.",
         "- whitelist contains false-positives that need to be filtered.",
         "- Filtered words of 2 or less characters are not used (whitelist excluded)."
     ],
@@ -17,13 +17,13 @@
             "list" :
             [["kill", "murder", "stab"],
             ["", "all", "them", "those", "these", "this", "that"],
-            ["jew", "jews", "africans", "nigs", "niggers", "nggr", "asians", "asian", "whites", "cracker", "crackers"]]
+            ["jew", "jews", "africans", "nigs", "niggers", "nggr", "asians", "asian", "whites", "cracker", "crackers", "blacks", "gay", "gays", "homo", "homos", "trans", "transgender", "transgenders", "tranny", "tranies"]]
         },
         {
             "filter" : "wordFilter",
             "modAction" : "KICK",
             "list" :
-            [["hate", "i hate", "ihate"],
+            [["hate", "i hate", "ihate", "i despise", "idespite", "kill all", "i kill"],
             ["black", "blacks", "white", "whites", "asian", "asians", "gay", "gays", "african", "africans"],
             ["", "people", "women", "men", "peeps"]]
         },
@@ -33,15 +33,6 @@
             "list" :
             [["horne", "horny", "wet"],
             ["girl", "boy", "baby"]]
-        },
-        {
-            "filter" : "wordFilter",
-            "modAction" : "SOFT_BAN_REVIEW",
-            "list" :
-            [["use", "download", "change to"],
-            ["", "a", "the"],
-            ["", "different", "new"],
-            ["nordvpn", "vpn", "ip"]]
         },
         {
             "filter" : "nameFilter",
@@ -54,7 +45,7 @@
             "filter" : "nameFilter",
             "modAction" : "KICK",
             "list" :
-            [["black", "white", "yellow", "brown", "cute", "hot", "pretty", "beautiful", "young", "dirty", "teen", "tween", "pre", "single", "thick", "lonely", "love", "naked", "nude", "looking4", "looking for", "need", "need for", "hawt", "thic", "thicc", "bad", "jealous", "popular", "interested", "interesting"],
+            [["black", "white", "yellow", "brown", "cute", "hot", "pretty", "beautiful", "young", "dirty", "teen", "tween", "pre", "single", "thick", "lonely", "love", "lover", "naked", "nude", "looking4", "looking for", "need", "need for", "hawt", "thic", "thicc", "bad", "jealous", "popular", "interested", "interesting"],
             ["girl", "boy", "gal", "guy", "dude", "dud", "woman", "man", "person", "pervert", "hottie", "tomboy", "peep", "peeps", "peepz", "baby", "femboy", "trans", "sissy", "transvestite"]]
         },
         {
@@ -135,7 +126,7 @@
         "faég",
         "as",
         "ga,e",
-		"penne",
+	"penne",
         "'re",
         "no",
         "pls",
