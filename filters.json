@@ -781,6 +781,7 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"nuggers",
 		"nugger",
 		"penjs",
 		"vagjna",
