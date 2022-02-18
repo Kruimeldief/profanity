@@ -781,6 +781,8 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"punis",
+		"vaguna",
 		"chingchong",
 		"nuggers",
 		"nugger",
