@@ -62,6 +62,17 @@
             [["homo", "bi", "trans", "lesbian", "gay"],
             ["sexual", ""]]
         },
+		{
+            "filter" : "nameFilter",
+            "modAction" : "KICK",
+            "list" :
+            [["", "pee", "poo"],
+            ["", "pee", "poo"],
+			["", "pee", "poo"],
+			["", "pee", "poo"],
+			["", "pee", "poo"],
+			["", "pee", "poo"]]
+        },
         {
 			"__comment" : "Duplicate created to prevent false-positive of middle array words.",
             "filter" : "nameFilter",
