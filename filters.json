@@ -793,6 +793,10 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"negoar",
+		"neagor",
+		"neagoar",
+		"neagar",
 		"balocks",
 		"bolocks",
 		"schitz",
