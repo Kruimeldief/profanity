@@ -793,6 +793,8 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"the code is",	
+		"thecodeis",
 		"btich",
 		"nickher",
 		"hairyarse",
