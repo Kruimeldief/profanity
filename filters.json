@@ -793,6 +793,7 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"code.io",
 		"hooker",
 		"the code is",	
 		"thecodeis",
