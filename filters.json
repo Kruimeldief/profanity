@@ -793,6 +793,8 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"Not An Artist",
+		"(Not An Artist)",
 		"fuqin",
 		"fuqen",
 		"fuqer",
