@@ -793,6 +793,8 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"fag",
+		"fags",
 		"fagots",
 		"fagot",
 		"faggots",
