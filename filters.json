@@ -793,6 +793,10 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"kneewgrow",
+		"kneegrow",
+		"kneewgro",
+		"kneegro",
 		"pargelenis",
 		"parge lenis",
 		"mike hawk",
