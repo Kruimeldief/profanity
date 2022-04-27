@@ -793,6 +793,10 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"knewgrow",
+		"knegrow",
+		"knewgro",
+		"knegro",
 		"kneewgrow",
 		"kneegrow",
 		"kneewgro",
