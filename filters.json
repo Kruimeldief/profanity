@@ -793,6 +793,7 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"all type",
 		"the answer is",
 		"nger",
 		"dhick",
