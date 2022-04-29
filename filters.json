@@ -793,6 +793,7 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"|\|igger",
 		"nger",
 		"dhick",
 		"negar",
