@@ -93,8 +93,8 @@
         }
     ],
     "whitelist" : [
-        "titles",
-        "title",
+	"kneecar",
+	"knecar",
         "balz",
         "kumm",
         "rappe",
