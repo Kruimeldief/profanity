@@ -651,6 +651,8 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"cvm",
+		"cvmming",
 		"tidees",
 		"herrenrasse",
 		"komdom",
