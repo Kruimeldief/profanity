@@ -93,6 +93,8 @@
         }
     ],
     "whitelist" : [
+	"r8pe",
+	"r8ped",
 	"kneecar",
 	"knecar",
         "balz",
