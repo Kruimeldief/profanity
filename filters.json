@@ -93,10 +93,6 @@
         }
     ],
     "whitelist" : [
-	"kneecar",
-	"knecar",
-        "balz",
-        "kumm",
         "rappe",
         "rapper",
         "rappers",
@@ -651,6 +647,10 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"kneecar",
+		"knecar",
+        	"balz",
+        	"kumm",
 		"siggernex",
 		"r8pe",
 		"r8ped",
