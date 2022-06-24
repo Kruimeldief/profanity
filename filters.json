@@ -645,6 +645,7 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"bitsh",
 		"Atolf",
 		"hifler",
 		"prnhube",
