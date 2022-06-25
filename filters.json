@@ -645,6 +645,7 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"s*x",
 		"cvnt",
 		"cvck",
 		"fvck",
