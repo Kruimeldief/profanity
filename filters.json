@@ -93,6 +93,9 @@
         }
     ],
     "whitelist" : [
+	"8=⊃",
+	"8==⊃",
+	"8===⊃",
         "rappe",
         "rapper",
         "rappers",
