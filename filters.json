@@ -39,14 +39,14 @@
             "modAction" : "KICK",
             "list" :
             [["your", "ur", "yo", "u", "jo", "joe", "yur", "jur", "jour"],
-            ["momma", "gay", "gae", "gey", "nan", "father", "grandma", "grandpa", "grandmother", "grandfather", "pops", "papa", "pa", "ma", "dad"]]
+            ["momma", "gay", "gae", "gey", "nan", "father","pops"]]
         },
         {
             "filter" : "nameFilter",
             "modAction" : "KICK",
             "list" :
-            [["black", "white", "yellow", "brown", "cute", "hot", "pretty", "beautiful", "young", "dirty", "teen", "tween", "pre", "single", "thick", "lonely", "love", "lover", "naked", "nude", "looking4", "looking for", "need", "need for", "hawt", "thic", "thicc", "bad", "jealous", "popular", "interested", "interesting"],
-            ["girl", "boy", "gal", "guy", "dude", "dud", "woman", "man", "person", "pervert", "hottie", "tomboy", "peep", "peeps", "peepz", "baby", "femboy", "trans", "sissy", "transvestite"]]
+            [["black", "white", "yellow", "brown", "hot", "pretty", "beautiful", "young", "dirty", "tween","single", "thick", "lonely", "love", "lover", "naked", "nude", "looking4", "looking for", "need", "need for", "hawt", "thic", "thicc", "jealous", "popular", "interested", "interesting"],
+            ["pervert", "hottie", "tomboy", "peep", "peeps", "peepz", "baby", "femboy", "trans", "sissy", "transvestite"]]
         },
         {
             "filter" : "nameFilter",
@@ -377,7 +377,6 @@
             "corona",
             "coronavirus",
             "titler",
-            "tomboy",
             "bumbut",
             "crackhead",
             "betch",
@@ -639,6 +638,7 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"fruck",
 		"fagogt",
 		"hitlar",
 		"pussii",
