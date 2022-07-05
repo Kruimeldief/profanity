@@ -638,6 +638,8 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"fayget",
+		"feyget",
 		"fruck",
 		"fagogt",
 		"hitlar",
