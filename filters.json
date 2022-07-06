@@ -638,6 +638,7 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"shet",
 		"vepen",
 		"vepn",
 		"vpen",
