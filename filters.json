@@ -638,6 +638,9 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"vepen",
+		"vepn",
+		"vpen",
 		"penois",
 		"testicles",
 		"crotch",
