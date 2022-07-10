@@ -93,6 +93,7 @@
         }
     ],
     "whitelist" : [
+	"sheet",
         "rappe",
         "rapper",
         "rappers",
