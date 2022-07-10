@@ -93,6 +93,7 @@
         }
     ],
     "whitelist" : [
+	"uhm",
 	"sheet",
         "rappe",
         "rapper",
