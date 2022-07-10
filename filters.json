@@ -638,6 +638,7 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"pigger",
 		"fokin",
 		"foking",
 		"fockin",
