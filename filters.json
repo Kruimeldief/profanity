@@ -650,6 +650,12 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"fagygot",
+		"fagyot",
+		"faygot",
+		"fagygots",
+		"fagyots",
+		"faygots",
 		"fagjgot",
 		"fagjot",
 		"fajgot",
