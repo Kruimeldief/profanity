@@ -638,6 +638,10 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"fags",
+		"killyourself",
+		"killurself",
+		"prenis",
 		"pigger",
 		"fokin",
 		"foking",
