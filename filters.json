@@ -93,6 +93,7 @@
         }
     ],
     "whitelist" : [
+	"c:",
 	"uhm",
 	"sheet",
         "rappe",
