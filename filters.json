@@ -651,6 +651,13 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"ret*rd",
+		"retrd",
+		"fukcing",
+		"fukcin",
+		"fukcer",
+		"fukcers",
+		"fukc",
 		"pussies",
 		"dong",
 		"shett",
