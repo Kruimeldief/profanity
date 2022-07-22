@@ -651,6 +651,9 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"shid",
+		"shid",
+		"shld",
 		"poinus",
 		"Rahul",
 		"Arun",
@@ -697,8 +700,6 @@
 		"poosay",
 		"卍",
 		"anos",
-		"shid",
-		"shld",
 		"asshole",
 		"assholes",
 		"assholez",
