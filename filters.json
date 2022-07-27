@@ -651,6 +651,7 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"therapist",
 		"nickga",
 		"nicka",
 		"nikher"
