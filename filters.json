@@ -652,6 +652,10 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"byatch",
+		"byatches",
+		"biatch",
+		"biatches",
 		"biyatch",
 		"biyatches",
 		"byiatch",
