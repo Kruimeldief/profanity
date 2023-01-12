@@ -652,6 +652,7 @@
     },
     "wordFilter" : {
         "KICK" : [
+		"pos",
 		"dixck",
 		"niggler",
 		"nigglers",
