@@ -652,7 +652,10 @@
     },
     "wordFilter" : {
         "KICK" : [
-		"BIYATCH",
+		"biyatch",
+		"biyatches",
+		"byiatch",
+		"byiatches",
 		"nihher",
 		"nihhers",
 		"anul",
