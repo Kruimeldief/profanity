@@ -34,6 +34,13 @@
             [["hate", "ihate", "despise", "idespite", "kill all", "i kill"],
             ["blacks", "whites", "asians", "gays", "lesbians", "africans", "americans", "yellows", "browns", "indians", "europeans"]]
         },
+	{
+            "filter" : "nameFilter",
+            "modAction" : "KICK",
+            "list" :
+            [["adolf", "adilf", "adulf", "adelf", "adulf", "edolf", "odalf", "edalf"],
+            ["hitler", "hatler", "hotler", "hutler", "hetler", "hitlir", "hitlar", "hitlor", "hitlur", "hiter", "hater"]]
+        },
         {
             "filter" : "wordFilter",
             "modAction" : "KICK_REVIEW",
