@@ -25,7 +25,7 @@
             "list" :
             [["hate", "i hate", "ihate", "i despise", "idespite", "kill all", "i kill"],
             ["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european"],
-            ["people", "women", "men", "peeps", "boys", "girls", "boy", "girl",]]
+            ["people", "women", "men", "peeps", "boys", "girls", "boy", "girl"]]
         },
 	{
             "filter" : "wordFilter",
