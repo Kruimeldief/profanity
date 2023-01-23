@@ -32,7 +32,7 @@
             "modAction" : "KICK",
             "list" :
             [["hate", "ihate", "despise", "idespite", "kill all", "i kill"],
-            ["blacks", "whites", "asians", "gays", "lesbians", "africans", "americans", "yellows", "browns", "indians", "europeans"]
+            ["blacks", "whites", "asians", "gays", "lesbians", "africans", "americans", "yellows", "browns", "indians", "europeans"]]
         },
         {
             "filter" : "wordFilter",
