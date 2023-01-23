@@ -93,8 +93,8 @@
             "modAction" : "KICK",
             "list" :
             [["", "suck", "sock", "seck", "sug", "lick", "lig", "jerk", "touch", "fap"],
-            ["my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma", "your", "ur", "u", "joe", "yur", "jur", "jour"],
-            ["cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "d", "dick", "dicc", "penises"]]
+            ["my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma", "your", "ur", "joe", "yur", "jur", "jour", "deez", "dees"],
+            ["cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "dick", "dicc", "penises"]]
         },
 		{
 			"__comment" : "Duplicate created to prevent false-positive of middle array words.",
@@ -102,7 +102,7 @@
             "modAction" : "KICK",
             "list" :
             [["suck", "sock", "seck", "sug", "lick", "lig", "jerk", "touch", "fap"],
-            ["my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma", "your", "ur", "u", "joe", "yur", "jur", "jour"],
+            ["my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma", "your", "ur", "joe", "yur", "jur", "jour", "deez", "dees"],
             ["", "cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "d", "dick", "dicc", "penises"]]
         }
     ],
@@ -217,7 +217,6 @@
             "urmum",
             "hoe",
             "anus",
-            "deez",
             "chingchong",
             "oppai",
             "hentai",
