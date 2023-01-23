@@ -15,7 +15,7 @@
             "filter" : "wordFilter",
             "modAction" : "SOFT_BAN",
             "list" :
-            [["kill", "murder", "stab"],
+            [["kill", "murder", "stab", "erase", "gas"],
             ["", "all", "them", "those", "these", "this", "that"],
             ["jew", "jews", "africans", "nigs", "niggers", "nggr", "asians", "asian", "whites", "cracker", "crackers", "blacks", "gay", "gays", "homo", "homos", "trans", "transgender", "transgenders", "tranny", "tranies"]]
         },
@@ -24,8 +24,15 @@
             "modAction" : "KICK",
             "list" :
             [["hate", "i hate", "ihate", "i despise", "idespite", "kill all", "i kill"],
-            ["black", "blacks", "white", "whites", "asian", "asians", "gay", "gays", "african", "africans"],
-            ["", "people", "women", "men", "peeps"]]
+            ["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european"],
+            ["people", "women", "men", "peeps", "boys", "girls", "boy", "girl",]]
+        },
+	{
+            "filter" : "wordFilter",
+            "modAction" : "KICK",
+            "list" :
+            [["hate", "ihate", "despise", "idespite", "kill all", "i kill"],
+            ["blacks", "whites", "asians", "gays", "lesbians", "africans", "americans", "yellows", "browns", "indians", "europeans"]
         },
         {
             "filter" : "wordFilter",
@@ -60,7 +67,7 @@
             "modAction" : "KICK",
             "list" :
             [["homo", "bi", "trans", "lesbian", "gay"],
-            ["sexual", ""]]
+            ["sexual", "gender", ""]]
         },
 		{
             "filter" : "nameFilter",
