@@ -94,7 +94,7 @@
             "list" :
             [["", "suck", "sock", "seck", "sug", "lick", "lig", "jerk", "touch", "fap", "kick", "hit", "slap", "stroke"],
             ["my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma", "your", "ur", "joe", "yur", "jur", "jour", "deez", "dees"],
-            ["cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "dick", "dicc", "penises"]]
+            ["cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "dick", "dicc", "penises", "anus", "anos"]]
         },
 		{
 			"__comment" : "Duplicate created to prevent false-positive of middle array words.",
@@ -103,7 +103,7 @@
             "list" :
             [["suck", "sock", "seck", "sug", "lick", "lig", "jerk", "touch", "fap", "kick", "hit", "slap", "stroke"],
             ["my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma", "your", "ur", "joe", "yur", "jur", "jour", "deez", "dees"],
-            ["", "cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "d", "dick", "dicc", "penises"]]
+            ["", "cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "d", "dick", "dicc", "penises", "anus", "anos"]]
         }
     ],
     "whitelist" : [
@@ -181,7 +181,9 @@
         "5x",
         "football",
         "baseball",
-	    "wie nie"
+	    "wie nie",
+	    "uranus",
+	    "uranos"
     ],
     "nameFilter" : {
         "KICK" : [
@@ -807,7 +809,6 @@
 		"poosaytight",
 		"poosay",
 		"卍",
-		"anos",
 		"asshole",
 		"assholes",
 		"assholez",
