@@ -108,6 +108,7 @@
         }
     ],
     "whitelist" : [
+	"anvl",
 	"schilt",
 	"c:",
 	"uhm",
