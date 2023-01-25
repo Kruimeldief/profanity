@@ -1,15 +1,16 @@
 {
     "__comment" : [
-        "- CTRL + F a modAction or filter to find your correct filter.",
-        "- sentenceFilter will be added to linked wordFilter in the script.",
-        "- wordFilter is applied to both messages and player names.",
-        "- nameFilter is applied only to player names.",
-        "- sentenceFilter can contain endless objects {'filter': '', 'modAction': '', 'list': [[]]}.",
-        "- whitelist contains false-positives that need to be filtered.",
-        "- Filtered words of 2 or less characters are not used (whitelist excluded)."
+	"   • Properties starting with 2 underscores are comments and not used in the script.                                               ",
+        "   • CTRL + F a modAction or filter to find your correct filter.                                                                   ",
+        "   • 'sentenceFilter': - will be added to linked (name- or word-) filter in the script.                                            ",
+	"                       - example: list [['I', 'We'], ['love', 'hate']] translates to ['I love', 'I hate', 'We love', 'We hate'].   ",
+	"                       - can contain endless objects { 'filter': '', 'modAction': '', 'list': [[]] }.                              ",
+        "   • 'wordFilter' is applied to both messages and player names.                                                                    ",
+        "   • 'nameFilter' is applied to player names only.                                                                                 ",
+        "   • 'whitelist' has safe strings that prevent false positives.                                                                    "
     ],
-    "__modActions": ["NONE", "KICK", "KICK_REVIEW", "SOFT_BAN", "SOFT_BAN_REVIEW", "HARD_BAN"],
-    "__filters": ["wordFilter", "nameFilter"],
+    "__modActions": ["KICK", "KICK_REVIEW", "SOFT_BAN", "SOFT_BAN_REVIEW", "HARD_BAN"],
+    "__filters": ["sentencesFilter", "whitelist", "wordFilter", "nameFilter"],
     "sentencesFilter" : [
         {
             "filter" : "wordFilter",
