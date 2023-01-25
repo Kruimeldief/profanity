@@ -108,6 +108,10 @@
         }
     ],
     "whitelist" : [
+	"flushlight",
+	"flashlight",
+	"flishlight",
+	"floshlight",
 	"tides",
 	"anvl",
 	"schilt",
@@ -141,7 +145,6 @@
         "fan",
         "faag",
         "faaag",
-    	"flashlight",
         ":P",
         "=p",
         ";p",
