@@ -108,6 +108,7 @@
         }
     ],
     "whitelist" : [
+	"tides",
 	"anvl",
 	"schilt",
 	"c:",
