@@ -108,6 +108,7 @@
         }
     ],
     "whitelist" : [
+	"Pepe",
 	"flushlight",
 	"flashlight",
 	"flishlight",
