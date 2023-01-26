@@ -29,22 +29,15 @@ If a profane part of a string contains a whitelisted word, that profane part is 
 Read paragraph [profanity variations](#profanity-variations) for more information about how profanity and whitelisted words are found.
 ```Javascript
 const whitelist = [ "sheet", "45s", "plss", "penne" ];
-const message = "The baby boom started in the 45's";
+const message = "The baby boom started in the 45s";
 
 /**
  * Read paragraph 'Profanity variations' to learn
  * more about how profanity is found in strings.
- *
- * Checking for whitelisted words uses the same
- * algorithm as explained in 'Profanity variations'.
  */
-const foundProfanity = "45's"; // "45's" → "as's" → "ass"
-const sliceList = [ "45", "s", "45s" ];
-
-for (const slice of sliceList) {
-  if (whitelist.includes(slice) {
-    // "45s" is whitelisted so profanity "45's" is ignored.
-  }
+const foundProfanity = "45s"; // "45s" → "ass"
+if (whitelist.includes(foundProfanity) {
+  // "45s" is whitelisted so profanity "45's" is ignored.
 }
 ```
 
@@ -109,7 +102,6 @@ const filters = {
   noNumbers:      [ "penis", "www.bit", "bitch", "zoom meeting", "thicccccc girl" ], // based on original
   noDuplicates:   [ "penis", "w.bit",   "bitch", "zom meting",   "thic girl"      ], // based on noNumbers
   noTriplicates:  [ "penis", "ww.bit",  "bitch", "zoom meeting", "thicc girl"     ], // based on noNumbers
-  noSpaces:       [ "penis", "www.bit", "bitch", "zoommeeting",  "thiccccccgirl"  ], // based on noNumbers
 };
 
 /**
