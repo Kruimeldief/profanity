@@ -102,6 +102,15 @@
 				["", "my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma", "your", "ur", "joe", "yur", "jur", "jour", "deez", "dees"],
 				["cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "dick", "dicc", "penises", "anus", "anos"]
 			]
+		},
+		{
+			"__comment" : "partial copy of the sentenceFilter object above",
+			"filter" : "nameFilter",
+			"modAction" : "KICK",
+			"list" : [
+				["suck", "sock", "seck", "sug", "lick", "lig", "jerk", "fap", "stroke"],
+				["my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma", "your", "ur", "joe", "yur", "jur", "jour", "deez", "dees"],
+			]
 		}
 	],
 	"whitelist" : [
