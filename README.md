@@ -1,7 +1,8 @@
 # Profanity filter
 
 File [filters.json](./filters.json) has different filter types.
-The moderation script fetches this file every 5 minutes to keep its filter up-to-date.
+The moderation script fetches this file every 5 minutes.
+This README.md file is kept up-to-date with any changes to the moderation script.
 
 ### Index
 
