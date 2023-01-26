@@ -55,9 +55,9 @@ const example = {
   "filter" : "nameFilter",
   "modAction" : "KICK",
   "list" : [
-    ["suck", "sug", "lick", "lig"],
-    ["", "my", "ma"],
-    ["cock", "balls", "nuts"]
+    [ "suck", "sug", "lick", "lig" ],
+    [ "", "my", "ma" ],
+    [ "cock", "balls", "nuts" ]
   ]
 };
 
