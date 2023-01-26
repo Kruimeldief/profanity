@@ -1,13 +1,8 @@
 {
     "__comment" : [
-	"   • Properties starting with 2 underscores are comments and not used in the script.                                               ",
-        "   • CTRL + F a modAction or filter to find your correct filter.                                                                   ",
-        "   • 'sentenceFilter': - will be added to linked (name- or word-) filter in the script.                                            ",
-	"                       - example: list [['I', 'We'], ['love', 'hate']] translates to ['I love', 'I hate', 'We love', 'We hate'].   ",
-	"                       - can contain endless objects { 'filter': '', 'modAction': '', 'list': [[]] }.                              ",
-        "   • 'wordFilter' is applied to both messages and player names.                                                                    ",
-        "   • 'nameFilter' is applied to player names only.                                                                                 ",
-        "   • 'whitelist' has safe strings that prevent false positives.                                                                    "
+	"  • Visit the README.md file for more information on how this filter works.          ",
+	"  • Properties starting with 2 underscores are comments and not used in the script.  ",
+        "  • CTRL + F a filter or modAction to find what you're looking for.                  "
     ],
     "__modActions": ["KICK", "KICK_REVIEW", "SOFT_BAN", "SOFT_BAN_REVIEW", "HARD_BAN"],
     "__filters": ["sentencesFilter", "whitelist", "wordFilter", "nameFilter"],
