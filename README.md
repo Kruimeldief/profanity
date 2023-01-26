@@ -29,7 +29,7 @@ const message = "Show me your t its";
  * algorithm as explained in 'Profanity variations'.
  */
 const foundProfanity = "t its";
-const sliceList = [ "t", "its" ]
+const sliceList = [ "t", "its" ];
 
 for (const slice of sliceList) {
   if (whitelist.includes(slice) {
@@ -106,7 +106,7 @@ const filters = {
  * This is an example message that is split on its spaces.
  * The script creates variations (slices) by joining words together.
  */
-const message = "You love pen111111s everywhere."
+const message = "You love pen111111s everywhere.";
 const slices = [
   "You", "love", "pen111111s", "everywhere.",
   "You love", "love pen111111s", "pen111111s everywhere.",
@@ -132,7 +132,7 @@ const checks = {
   noDuplicates: filters.noDuplicates.includes(sliceNoDuplicates),     // "penis"      → true
   noTriplicates: filters.noTriplicates.includes(sliceNoTriplicates),  // "peniis"     → false
   noSpaces: filters.noSpaces.includes(sliceNoSpaces),                 // "peniiiiiis" → false
-}
+};
 ```
 
 ### Mod actions
