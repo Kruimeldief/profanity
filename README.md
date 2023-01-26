@@ -68,7 +68,7 @@ const example = {
  * Scroll down to paragraph 'Profanity variations' to learn
  * more about how each string creates even more variations.
  */
-const stringsToAdd = [ // 4 * 3 * 3 = 36 variations
+const variations = [ // 4 * 3 * 3 = 36 variations
   "suck cock", "suck balls", "suck nuts", "suck my cock",
   "suck my balls", "suck my nuts", "suck ma cock", "suck ma balls",
   "suck ma nuts", "sug cock", "sug balls", "sug nuts",
