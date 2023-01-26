@@ -133,7 +133,6 @@ const checks = {
   noNumbers: filters.noNumbers.includes(sliceNoNumbers),              // "peniiiiiis" → false
   noDuplicates: filters.noDuplicates.includes(sliceNoDuplicates),     // "penis"      → true
   noTriplicates: filters.noTriplicates.includes(sliceNoTriplicates),  // "peniis"     → false
-  noSpaces: filters.noSpaces.includes(sliceNoSpaces),                 // "peniiiiiis" → false
 };
 ```
 
