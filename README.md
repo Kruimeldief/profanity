@@ -28,8 +28,8 @@ Whitelisted words prevent false positives when finding profanity.
 If a profane part of a string contains a whitelisted word, that profane part is ignored.
 Read paragraph [profanity variations](#profanity-variations) for more information about how profanity and whitelisted words are found.
 ```Javascript
-const whitelist = [ "title", "titles", "it", "its", "tilt" ];
-const message = "Show me your t its";
+const whitelist = [ "sheet", "45s", "plss", "penne" ];
+const message = "The baby boom started in the 45's";
 
 /**
  * Read paragraph 'Profanity variations' to learn
@@ -38,12 +38,12 @@ const message = "Show me your t its";
  * Checking for whitelisted words uses the same
  * algorithm as explained in 'Profanity variations'.
  */
-const foundProfanity = "t its";
-const sliceList = [ "t", "its" ];
+const foundProfanity = "45's"; // "45's" → "as's" → "ass"
+const sliceList = [ "45", "s", "45s" ];
 
 for (const slice of sliceList) {
   if (whitelist.includes(slice) {
-    // "its" is whitelisted so profanity "t its" is ignored.
+    // "45s" is whitelisted so profanity "45's" is ignored.
   }
 }
 ```
