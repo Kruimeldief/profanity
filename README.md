@@ -5,11 +5,11 @@ The moderation script fetches this file every 5 minutes to keep its filter up-to
 
 ### Index
 
-• [Word filter](#word-filter)
-• [Name filter](#name-filter)
-• [Whitelist](#whitelist)
-• [Sentence filter](#sentence-filter)
-• [Profanity variations](#profanity-variations)
+• [Word filter](#word-filter)<br/>
+• [Name filter](#name-filter)<br/>
+• [Whitelist](#whitelist)<br/>
+• [Sentence filter](#sentence-filter)<br/>
+• [Profanity variations](#profanity-variations)<br/>
 • [Mod actions](#mod-actions)
 
 
