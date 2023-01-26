@@ -72,15 +72,15 @@ const example = {
  * more about how each string creates even more variations.
  */
 const variations = [ // 4 * 3 * 3 = 36 variations
-  "suck cock", "suck balls", "suck nuts", "suck my cock",
-  "suck my balls", "suck my nuts", "suck ma cock", "suck ma balls",
-  "suck ma nuts", "sug cock", "sug balls", "sug nuts",
-  "sug my cock", "sug my balls", "sug my nuts", "sug ma cock",
-  "sug ma balls", "sug ma nuts", "lick cock", "lick balls",
-  "lick nuts", "lick my cock", "lick my balls", "lick my nuts",
-  "lick ma cock", "lick ma balls", "lick ma nuts", "lig cock",
-  "lig balls", "lig nuts", "lig my cock", "lig my balls",
-  "lig my nuts", "lig ma cock", "lig ma balls", "lig ma nuts",
+  "suckcock", "suckballs", "sucknuts", "suckmycock",
+  "suckmyballs", "suckmynuts", "suckmacock", "suckmaballs",
+  "suckmanuts", "sugcock", "sugballs", "sugnuts",
+  "sugmycock", "sugmyballs", "sugmynuts", "sugmacock",
+  "sugmaballs", "sugmanuts", "lickcock", "lickballs",
+  "licknuts", "lickmycock", "lickmyballs", "lickmynuts",
+  "lickmacock", "lickmaballs", "lickmanuts", "ligcock",
+  "ligballs", "lignuts", "ligmycock", "ligmyballs",
+  "ligmynuts", "ligmacock", "ligmaballs", "ligmanuts",
 ];
 ```
 
