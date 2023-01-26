@@ -5,26 +5,26 @@ The moderation script fetched this file every 5 minutes to keep its filter up-to
 
 ### Word filter
 
-JSON property `wordFilter` has profane words that are used to filter bad language in both player messages and names.
+• JSON property `wordFilter` has profane words that are used to filter bad language in both player messages and names.
 
 ### Name filter
 
-JSON property `nameFilter` has profane words that are used to filter bad language in player names only.<br/>
-Player messages are excluded because this filter is meant to put additional restrictions on player names only.<br/>
-Example: a player may say 'gay' in the chat but may not use 'gay' in its name.
+• JSON property `nameFilter` has profane words that are used to filter bad language in player names only.<br/>
+• Player messages are excluded because this filter is meant to put additional restrictions on player names only.<br/>
+• Example: a player may say 'gay' in the chat but may not use 'gay' in its name.
 
 ### Whitelist
 
-JSON property `whitelist` has whitelisted words.<br/>
-These words are applied to all profanity checks (player message, name and chat history).<br/>
-If any part of the string marked as profanity is part of the whitelist, then the whole string is no longer profane.
+• JSON property `whitelist` has whitelisted words.<br/>
+• These words are applied to all profanity checks (player message, name and chat history).<br/>
+• If any part of the string marked as profanity is part of the whitelist, then the whole string is no longer profane.
 
 ### Sentence filter
 
-JSON property `sentenceFilter` has an array with objects that facilitate variations of word sentences.<br/>
-`filter`: select a filter to which the profanity variations are added: wordFilter or nameFilter.<br/>
-`modAction`: select a moderation action to specify how a player should be handled: KICK or SOFT_BAN. (case sensitive)<br/>
-`list`: A nested array where each word in a nested array is added to all strings in the next nested array.<br/>
+• JSON property `sentenceFilter` has an array with objects that facilitate variations of word sentences.<br/>
+• `filter`: select a filter to which the profanity variations are added: wordFilter or nameFilter.<br/>
+• `modAction`: select a moderation action to specify how a player should be handled: KICK or SOFT_BAN. (case sensitive)<br/>
+• `list`: A nested array where each word in a nested array is added to all strings in the next nested array.<br/>
 ```Javascript
 /**
  * If you leave an string empty in the list's nested array,
@@ -64,8 +64,8 @@ const stringsToAdd = [ // 4 * 3 * 3 = 36 variations
 
 ### Profanity variations
 
-The moderation script will create variations of words you add to any filter, except for the whitelist.<br/>
-This block of code is simplified for the purpose of explaining which variation filters are created from strings you add to filters.
+• The moderation script will create variations of words you add to any filter, except for the whitelist.<br/>
+• This block of code is simplified for the purpose of explaining which variation filters are created from strings you add to filters.
 ```Javascript
 /**
  * `filters.original` contains the exact strings that you added to the filters.
@@ -118,10 +118,10 @@ const checks = {
 
 ### Mod actions
 
-The moderation script uses 5 moderation actions: `KICK`, ~~`KICK_REVIEW`~~, `SOFT_BAN`, ~~`SOFT_BAN_REVIEW`~~, and ~~`HARD_BAN`~~.<br/>
-The strikken ModActions are depreciated and are automatically converted to either a kick or soft ban.<br/>
-`KICK`:            words in this category cause the script to kick the player.<br/>
-`KICK_REVIEW`:     words in this category cause the script to kick the player.<br/>
-`SOFT_BAN`:        words in this category cause the script to soft ban the player.<br/>
-`SOFT_BAN_REVIEW`: words in this category cause the script to soft ban the player.<br/>
-`HARD_BAN`:        words in this category cause the script to soft ban the player.
+• The moderation script uses 5 moderation actions: `KICK`, ~~`KICK_REVIEW`~~, `SOFT_BAN`, ~~`SOFT_BAN_REVIEW`~~, and ~~`HARD_BAN`~~.<br/>
+• The crossed out ModActions are depreciated and are automatically converted to either a kick or soft ban.<br/>
+• `KICK`:            words in this category cause the script to kick the player.<br/>
+• `KICK_REVIEW`:     words in this category cause the script to kick the player.<br/>
+• `SOFT_BAN`:        words in this category cause the script to soft ban the player.<br/>
+• `SOFT_BAN_REVIEW`: words in this category cause the script to soft ban the player.<br/>
+• `HARD_BAN`:        words in this category cause the script to soft ban the player.
