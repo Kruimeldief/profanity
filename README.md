@@ -1,6 +1,6 @@
 # Profanity filter
 
-File [filters.json](https://github.com/Kruimeldief/profanity/blob/main/filters.json) has different filter types.
+File [filters.json](./filters.json) has different filter types.
 The moderation script fetches this file every 5 minutes to keep its filter up-to-date.
 
 ### Index
