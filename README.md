@@ -16,7 +16,7 @@ Example: a player may say 'I am gay' in the chat but may not use 'gay' in its na
 
 Whitelisted words prevent false positives when finding profanity.
 If a profane part of a string contains a whitelisted word, that profane part is ignored.
-Read paragraph [profanity variations](https://github.com/Kruimeldief/profanity#profanity-variations) for more information about how profanity and whitelisted words are found.
+Read paragraph [profanity variations](#profanity-variations) for more information about how profanity and whitelisted words are found.
 ```Javascript
 const whitelist = [ "title", "titles", "it", "its", "tilt" ];
 const message = "Show me your t its";
