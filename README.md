@@ -1,30 +1,49 @@
 # Profanity filter
 
-File [`filters.json`](https://github.com/Kruimeldief/profanity/blob/main/filters.json) contains a JSON with different filter types.<br/>
-The moderation script fetched this file every 5 minutes to keep its filter up-to-date.
+File [filters.json](https://github.com/Kruimeldief/profanity/blob/main/filters.json) has different filter types.
+The moderation script fetches this file every 5 minutes to keep its filter up-to-date.
 
 ### Word filter
 
-• JSON property `wordFilter` has profane words that are used to filter bad language in both player messages and names.
+The wordFilter is applied to both player messages and names.
 
 ### Name filter
 
-• JSON property `nameFilter` has profane words that are used to filter bad language in player names only.<br/>
-• Player messages are excluded because this filter is meant to put additional restrictions on player names only.<br/>
-• Example: a player may say 'gay' in the chat but may not use 'gay' in its name.
+The nameFilter is applied to player names only.
+Example: a player may say 'I am gay' in the chat but may not use 'gay' in its name.
 
 ### Whitelist
 
-• JSON property `whitelist` has whitelisted words.<br/>
-• These words are applied to all profanity checks (player message, name and chat history).<br/>
-• If any part of the string marked as profanity is part of the whitelist, then the whole string is no longer profane.
+Whitelisted words prevent false positives when finding profanity.
+If a profane part of a string contains a whitelisted word, that profane part is ignored.
+Read paragraph [profanity variations](https://github.com/Kruimeldief/profanity/edit/main/README.md#profanity-variations) for more information about how profanity and whitelisted words are found.
+```Javascript
+const whitelist = [ "title", "titles", "it", "its", "tilt" ];
+const message = "Show me your t its";
+
+/**
+ * Read paragraph 'Profanity variations' to learn
+ * more about how profanity is found in strings.
+ *
+ * Checking for whitelisted words uses the same
+ * algorithm as explained in 'Profanity variations'.
+ */
+const foundProfanity = "t its";
+const sliceList = [ "t", "its" ]
+
+for (const slice of sliceList) {
+  if (whitelist.includes(slice) {
+    // "its" is whitelisted so profanity "t its" is ignored.
+  }
+}
+```
 
 ### Sentence filter
 
-• JSON property `sentenceFilter` has an array with objects that facilitate variations of word sentences.<br/>
-• `filter`: select a filter to which the profanity variations are added: wordFilter or nameFilter.<br/>
-• `modAction`: select a moderation action to specify how a player should be handled: KICK or SOFT_BAN. (case sensitive)<br/>
-• `list`: A nested array where each word in a nested array is added to all strings in the next nested array.<br/>
+The sentenceFilter has a list of objects that facilitate creating variations.<br/>
+• `filter` is where the variations are added: wordFilter or nameFilter.<br/>
+• `modAction` specifies what happens if a message contains the profane variation: KICK or SOFT_BAN (case sensitive).<br/>
+• `list` is a nested array from which one word is selected per array to create the variation.<br/>
 ```Javascript
 /**
  * If you leave an string empty in the list's nested array,
@@ -64,8 +83,8 @@ const stringsToAdd = [ // 4 * 3 * 3 = 36 variations
 
 ### Profanity variations
 
-• The moderation script will create variations of words you add to any filter, except for the whitelist.<br/>
-• This block of code is simplified for the purpose of explaining which variation filters are created from strings you add to filters.
+The script creates variations of all strings added to the filters, except for the whitelist.
+The block of code is simplified to better explain how filter variations are created.
 ```Javascript
 /**
  * `filters.original` contains the exact strings that you added to the filters.
@@ -118,10 +137,10 @@ const checks = {
 
 ### Mod actions
 
-• The moderation script uses 5 moderation actions: `KICK`, ~~`KICK_REVIEW`~~, `SOFT_BAN`, ~~`SOFT_BAN_REVIEW`~~, and ~~`HARD_BAN`~~.<br/>
-• The crossed out ModActions are depreciated and are automatically converted to either a kick or soft ban.<br/>
-• `KICK`:            words in this category cause the script to kick the player.<br/>
-• `KICK_REVIEW`:     words in this category cause the script to kick the player.<br/>
-• `SOFT_BAN`:        words in this category cause the script to soft ban the player.<br/>
-• `SOFT_BAN_REVIEW`: words in this category cause the script to soft ban the player.<br/>
-• `HARD_BAN`:        words in this category cause the script to soft ban the player.
+The script uses 5 moderation actions of which only 2 are still used.
+Any depreciated actions convert to either kick or soft ban.<br/>
+• `KICK` kicks the player.<br/>
+• ~~`KICK_REVIEW`~~ kicks the player.<br/>
+• `SOFT_BAN` bans the player.<br/>
+• ~~`SOFT_BAN_REVIEW`~~ bans the player.<br/>
+• ~~`HARD_BAN`~~ bans the player.
