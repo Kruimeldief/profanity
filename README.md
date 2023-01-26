@@ -37,7 +37,7 @@ const message = "The baby boom started in the 45s";
  */
 const foundProfanity = "45s"; // "45s" → "ass"
 if (whitelist.includes(foundProfanity) {
-  // "45s" is whitelisted so profanity "45's" is ignored.
+  // "45s" is whitelisted so profanity "45s" is ignored.
 }
 ```
 
