@@ -3,6 +3,16 @@
 File [filters.json](https://github.com/Kruimeldief/profanity/blob/main/filters.json) has different filter types.
 The moderation script fetches this file every 5 minutes to keep its filter up-to-date.
 
+### Index
+
+• [Word filter](#word-filter)
+• [Name filter](#name-filter)
+• [Whitelist](#whitelist)
+• [Sentence filter](#sentence-filter)
+• [Profanity variations](#profanity-variations)
+• [Mod actions](#mod-actions)
+
+
 ### Word filter
 
 The wordFilter is applied to both player messages and names.
