@@ -27,7 +27,9 @@ JSON property `sentenceFilter` has an array with objects that facilitate variati
 `list`: A nested array where each word in a nested array is added to all strings in the next nested array.<br/>
 ```Javascript
 /**
- * If you leave an string empty in the list's nested array, then you make the words in that array optional.
+ * If you leave an string empty in the list's nested array,
+ * then you make the words in that array optional.
+ * 
  * Each listed word is separated by a space.
  */
 const example = {
@@ -41,8 +43,11 @@ const example = {
 };
 
 /**
- * The moderation script creates and adds the following profanity strings to the nameFilter.
- * Scroll down to paragraph 'Profanity variations' to learn more about how each string creates even more variations.
+ * The moderation script creates and adds the
+ * following profanity strings to the nameFilter.
+ * 
+ * Scroll down to paragraph 'Profanity variations' to learn
+ * more about how each string creates even more variations.
  */
 const stringsToAdd = [ // 4 * 3 * 3 = 36 variations
   "suck cock", "suck balls", "suck nuts", "suck my cock",
@@ -64,7 +69,10 @@ This block of code is simplified for the purpose of explaining which variation f
 ```Javascript
 /**
  * `filters.original` contains the exact strings that you added to the filters.
- * `filters.noNumbers` changes all numbers to their linked letter and all other filters are based on `filter.noNumbers`.
+ * 
+ * `filters.noNumbers` changes all numbers to their linked letter,
+ * and all other filters are based on `filter.noNumbers`.
+ * 
  * Number-letter linked: 1→i, 2→z, 3→e, 4→A, 5→s, 6→b, 7→T, 8→B, 9→g
  */
 const filters = {
@@ -83,7 +91,7 @@ const message = "You love pen111111s everywhere."
 const slices = [
   "You", "love", "pen111111s", "everywhere.",
   "You love", "love pen111111s", "pen111111s everywhere.",
-  "You love pen111111s", love pen111111s everywhere.",
+  "You love pen111111s", "love pen111111s everywhere.",
   "You love pen111111s everywhere."
 ];
 
