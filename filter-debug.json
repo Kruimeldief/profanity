@@ -275,13 +275,9 @@
 		"dich"
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
-	"hardNameFilter" : [
-		"yogabagaba"
-	],
+	"hardNameFilter" : [],
 	"nameFilter" : {
-		"NOTIFY" : [
-			"wildberries"
-		],
+		"NOTIFY" : [],
 		"KICK" : [
 			"fitler",
 			"testiculs",
