@@ -276,9 +276,11 @@
 		"ding dong"
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
-	"hardNameFilter" : [],
+	"hardNameFilter" : [
+		"knkjbwb04iono42n"
+	],
 	"nameFilter" : {
-		"NOTIFY" : [],
+		"NOTIFY" : ["fkaksv93n1l"],
 		"KICK" : [
 			"fitler",
 			"testiculs",
