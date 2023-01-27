@@ -4,7 +4,7 @@
 		"  • Properties starting with 2 underscores are comments and not used in the script.  ",
 		"  • CTRL + F a filter or modAction to find what you're looking for.                  "
 	],
-	"__modActions": ["KICK", "KICK_REVIEW", "SOFT_BAN", "SOFT_BAN_REVIEW", "HARD_BAN"],
+	"__modActions": ["NOTIFY", "KICK", "SOFT_BAN"],
 	"__filters": ["sentencesFilter", "whitelist", "wordFilter", "nameFilter"],
 	"sentencesFilter" : [
 		{
@@ -44,7 +44,7 @@
 		},
 		{
 			"filter" : "wordFilter",
-			"modAction" : "KICK_REVIEW",
+			"modAction" : "KICK",
 			"list" : [
 				["horne", "horny", "wet"],
 				["girl", "boy", "baby"]
@@ -275,7 +275,10 @@
 		"dich",
 		"ding dong"
 	],
+	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
+	"hardNameFilter" : [],
 	"nameFilter" : {
+		"NOTIFY" : [],
 		"KICK" : [
 			"fitler",
 			"testiculs",
@@ -756,12 +759,10 @@
 			"yourmum",
 			"fetsmel"
 		],
-		"KICK_REVIEW" : [],
-		"SOFT_BAN" : [],
-		"SOFT_BAN_REVIEW" : [],
-		"HARD_BAN" : []
+		"SOFT_BAN" : []
 	},
 	"wordFilter" : {
+		"NOTIFY" : [],
 		"KICK" : [
 			"neekero",
 			"neekeri",
@@ -2880,12 +2881,9 @@
 			"𝖵𝖴𝖱.𝖥𝖸𝖨",
 			"zoommeeting"
 		],
-		"KICK_REVIEW" : [],
 		"SOFT_BAN" : [
 			"nigger",
 			"hitler"
-		],
-		"SOFT_BAN_REVIEW" : [],
-		"HARD_BAN" : []
+		]
 	}
 }
