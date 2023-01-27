@@ -277,10 +277,10 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter" : [
-		"knkjbwb04iono42n"
+		"[TESTER]"
 	],
 	"nameFilter" : {
-		"NOTIFY" : ["fkaksv93n1l"],
+		"NOTIFY" : ["[KRUIMEL]"],
 		"KICK" : [
 			"fitler",
 			"testiculs",
