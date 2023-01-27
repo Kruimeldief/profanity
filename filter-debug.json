@@ -279,7 +279,9 @@
 		"yogabagaba"
 	],
 	"nameFilter" : {
-		"NOTIFY" : [],
+		"NOTIFY" : [
+			"wildberries"
+		],
 		"KICK" : [
 			"fitler",
 			"testiculs",
