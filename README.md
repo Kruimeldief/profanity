@@ -8,6 +8,7 @@ This README.md file is kept up-to-date with any changes to the moderation script
 
 • [Word filter](#word-filter)<br/>
 • [Name filter](#name-filter)<br/>
+• [Hard name filter](#hard-name-filter)<br/>
 • [Whitelist](#whitelist)<br/>
 • [Sentence filter](#sentence-filter)<br/>
 • [Profanity variations](#profanity-variations)<br/>
@@ -22,6 +23,12 @@ The wordFilter is applied to both player messages and names.
 
 The nameFilter is applied to player names only.
 Example: a player may say 'I am gay' in the chat but may not use 'gay' in its name.
+
+### Hard name filter
+
+The hardNameFilter is applied to player names only.
+It reads through the name by use of a Regular Expression.<br/>
+Example: 'Me A GayMer' → 'MeAGayMer' → 'Gay' → 'gay'.
 
 ### Whitelist
 
@@ -99,10 +106,8 @@ The block of code is simplified to better explain how filter variations are crea
  * Number-letter linked: 1→i, 2→z, 3→e, 4→A, 5→s, 6→b, 7→T, 8→B, 9→g
  */
 const filters = {
-  original:       [ "p3nis", "www.bit", "b1tch", "z00m meeting", "thicccccc girl" ], // original
-  noNumbers:      [ "penis", "www.bit", "bitch", "zoom meeting", "thicccccc girl" ], // based on original
-  noDuplicates:   [ "penis", "w.bit",   "bitch", "zom meting",   "thic girl"      ], // based on noNumbers
-  noTriplicates:  [ "penis", "ww.bit",  "bitch", "zoom meeting", "thicc girl"     ], // based on noNumbers
+  original:       [ "p3nis", "www.bit", "b1tch", "z00m meeting", "thicccccc girl" ],
+  noNumbers:      [ "penis", "www.bit", "bitch", "zoom meeting", "thicccccc girl" ],
 };
 
 /**
@@ -122,7 +127,7 @@ const slices = [
  * The string is modified the same way that the filters are modified.
  * Each modified string is searched in the corresponding filter.
  */
-const slice = "pen111111s";
+const slice = "pen1s";
 // ... more string modifications
 
 /**
@@ -130,19 +135,14 @@ const slice = "pen111111s";
  * If at least one boolean is true, then it means we have found profanity.
  */
 const checks = {
-  original: filters.original.includes(slice),                         // "pen111111s" → false
-  noNumbers: filters.noNumbers.includes(sliceNoNumbers),              // "peniiiiiis" → false
-  noDuplicates: filters.noDuplicates.includes(sliceNoDuplicates),     // "penis"      → true
-  noTriplicates: filters.noTriplicates.includes(sliceNoTriplicates),  // "peniis"     → false
+  original: filters.original.includes(slice),                         // "pen1s" → false
+  noNumbers: filters.noNumbers.includes(sliceNoNumbers),              // "penis" → true
 };
 ```
 
 ### Mod actions
 
-The script uses 5 moderation actions of which only 2 are still used.
-Any depreciated actions convert to either kick or soft ban.<br/>
+The script has 3 moderation actions.<br/>
+• `NOTIFY` posts a Modbot log without kicking or banning the player.<br/>
 • `KICK` kicks the player.<br/>
-• ~~`KICK_REVIEW`~~ kicks the player.<br/>
 • `SOFT_BAN` bans the player.<br/>
-• ~~`SOFT_BAN_REVIEW`~~ bans the player.<br/>
-• ~~`HARD_BAN`~~ bans the player.
