@@ -143,6 +143,6 @@ const checks = {
 ### Mod actions
 
 The script has 3 moderation actions.<br/>
-• `NOTIFY` posts a Modbot log without kicking or banning the player.<br/>
-• `KICK` kicks the player.<br/>
-• `SOFT_BAN` bans the player.<br/>
+• `NOTIFY` posts a moderation log without kicking or banning the player.<br/>
+• `KICK` kicks the player and post a moderation kick log.<br/>
+• `SOFT_BAN` bans the player and post a moderation ban log.<br/>
