@@ -21,14 +21,14 @@ The wordFilter is applied to both player messages and names.
 
 ### Name filter
 
-The nameFilter is applied to player names only.
-Example: a player may say 'I am gay' in the chat but may not use 'gay' in its name.
+The nameFilter is applied to player names only to allow players more freedom to talk about certain things.<br/>
+Example of a player name: 'I Am Gay' → 'Gay' → 'gay'
 
 ### Hard name filter
 
 The hardNameFilter is applied to player names only.
 It reads through the name by use of a Regular Expression.<br/>
-Example: 'Me A GayMer' → 'MeAGayMer' → 'Gay' → 'gay'.
+Example of a player name: 'Me A GayMer' → 'MeAGayMer' → 'Gay' → 'gay'.
 
 ### Whitelist
 
