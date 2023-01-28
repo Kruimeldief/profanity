@@ -135,8 +135,8 @@ const slice = "pen1s";
  * If at least one boolean is true, then it means we have found profanity.
  */
 const checks = {
-  original: filters.original.includes(slice),                         // "pen1s" → false
-  noNumbers: filters.noNumbers.includes(sliceNoNumbers),              // "penis" → true
+  original: filters.original.includes(slice),             // "pen1s" → false
+  noNumbers: filters.noNumbers.includes(sliceNoNumbers),  // "penis" → true
 };
 ```
 
