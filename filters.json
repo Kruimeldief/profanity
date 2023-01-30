@@ -39,7 +39,7 @@
 			"modAction" : "KICK",
 			"list" : [
 				["adolf", "adilf", "adulf", "adelf", "adulf", "edolf", "odalf", "edalf"],
-				["hitler", "hatler", "hotler", "hutler", "hetler", "hitlir", "hitlar", "hitlor", "hitlur", "hiter", "hater"]
+				["hitler", "hatler", "hotler", "hutler", "hetler", "hitlir", "hitlar", "hitlor", "hitlur", "hiter", "hater", "Hit(er", "Hit)er"]
 			]
 		},
 		{
@@ -280,6 +280,8 @@
 	"nameFilter" : {
 		"NOTIFY" : [],
 		"KICK" : [
+			"Hit(er",
+			"Hit)er",
 			"urmotha",
 			"yourmotha",
 			"fitler",
