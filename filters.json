@@ -100,7 +100,7 @@
 			"list" : [
 				["suck", "sock", "seck", "sug", "lick", "lig", "jerk", "touch", "fap", "kick", "hit", "slap", "stroke"],
 				["", "my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma", "your", "ur", "joe", "yur", "jur", "jour", "deez", "dees"],
-				["cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "dick", "dicc", "penises", "anus", "anos"]
+				["cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "dick", "dicc", "penises", "anus", "anos", "dong"]
 			]
 		},
 		{
@@ -278,7 +278,9 @@
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter" : [],
 	"nameFilter" : {
-		"NOTIFY" : [],
+		"NOTIFY" : [
+			"dong"
+		],
 		"KICK" : [
 			"urmotha",
 			"yourmotha",
@@ -954,7 +956,6 @@
 			"fukcers",
 			"fukc",
 			"pussies",
-			"dong",
 			"shett",
 			"nixxer",
 			"nixxers",
