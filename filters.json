@@ -278,9 +278,7 @@
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter" : [],
 	"nameFilter" : {
-		"NOTIFY" : [
-			"dong"
-		],
+		"NOTIFY" : [],
 		"KICK" : [
 			"urmotha",
 			"yourmotha",
@@ -767,7 +765,9 @@
 		"SOFT_BAN" : []
 	},
 	"wordFilter" : {
-		"NOTIFY" : [],
+		"NOTIFY" : [
+			"dong"
+		],
 		"KICK" : [
 			"adalph",
 			"adalf",
