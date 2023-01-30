@@ -767,6 +767,8 @@
 	"wordFilter" : {
 		"NOTIFY" : [],
 		"KICK" : [
+			"adalph",
+			"adalf",
 			"circumsize",
 			"circumsized",
 			"circumsizer",
