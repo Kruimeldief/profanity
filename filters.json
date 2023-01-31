@@ -114,6 +114,7 @@
 		}
 	],
 	"whitelist" : [
+		"good",
 		"Pepe",
 		"flushlight",
 		"flashlight",
