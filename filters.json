@@ -281,6 +281,16 @@
 	"nameFilter" : {
 		"NOTIFY" : [],
 		"KICK" : [
+			"christians",
+			"christian",
+			"christ",
+			"muslims",
+			"muslim",
+			"islamic",
+			"islam",
+			"judaism",
+			"jews",
+			"jewish",
 			"allah",
 			"jesus",
 			"god",
