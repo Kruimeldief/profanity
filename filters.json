@@ -281,6 +281,7 @@
 	"nameFilter" : {
 		"NOTIFY" : [],
 		"KICK" : [
+			"allah",
 			"jesus",
 			"god",
 			"dickface",
