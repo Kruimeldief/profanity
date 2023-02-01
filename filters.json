@@ -796,7 +796,8 @@
 	},
 	"wordFilter" : {
 		"NOTIFY" : [
-			"dong"
+			"dong",
+			"nani"
 		],
 		"KICK" : [
 			"chod",
