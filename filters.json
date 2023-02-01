@@ -283,6 +283,8 @@
 	"nameFilter" : {
 		"NOTIFY" : [],
 		"KICK" : [
+			"menlover",
+			"manlover",
 			"deinemudda",
 			"deinmudda",
 			"christians",
