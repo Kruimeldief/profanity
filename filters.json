@@ -114,6 +114,8 @@
 		}
 	],
 	"whitelist" : [
+		"pozz",
+		"poz",
 		"good",
 		"Pepe",
 		"flushlight",
