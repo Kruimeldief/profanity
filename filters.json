@@ -283,6 +283,7 @@
 	"nameFilter" : {
 		"NOTIFY" : [],
 		"KICK" : [
+			"mudda",
 			"christians",
 			"christian",
 			"christ",
