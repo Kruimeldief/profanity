@@ -30,6 +30,16 @@
 			"filter" : "wordFilter",
 			"modAction" : "KICK",
 			"list" : [
+				["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european"],
+				["people", "women", "men", "peeps", "boys", "girls", "boy", "girl", "human", "humans", "peepz", "ladies", "blokes", "fellas", "lady", "bloke", "fella", "chick", "chicks", "dude", "dudes", "guys", "guy" ],
+				["is", "are", "should", "must"],
+				["die", "dead", "cancer", "burn", "rot", "choke", "scum", "thug", "thugs", "low", "basic", "pay", "worthless", "nothing", "steal", "a virus", "a menace", "a problem", "the problem", "go"]
+			]
+		},
+		{
+			"filter" : "wordFilter",
+			"modAction" : "KICK",
+			"list" : [
 				["hate", "ihate", "despise", "idespite", "kill all", "i kill"],
 				["blacks", "whites", "asians", "gays", "lesbians", "africans", "americans", "yellows", "browns", "indians", "europeans"]
 			]
