@@ -114,6 +114,7 @@
 		}
 	],
 	"whitelist" : [
+			"sketchful",
 			"'re",
 			"0v0",
 			"0w0",
@@ -210,6 +211,7 @@
 	"nameFilter" : {
 		"NOTIFY" : [],
 		"KICK" : [
+			"stupididiot",
 			"8=d",
 			"[ADMIN]",
 			"[DEV]",
@@ -684,6 +686,7 @@
 			"feet smell"
 		],
 		"KICK" : [
+			"skribblisbetter",
 			"$hit",
 			"(,)(,)",
 			"(,y,)",
