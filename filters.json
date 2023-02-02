@@ -803,6 +803,7 @@
 			"feet smell"
 		],
 		"KICK" : [
+			"negar",
 			"$hit",
 			"(,)(,)",
 			"(,y,)",
