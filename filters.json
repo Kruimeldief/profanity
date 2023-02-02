@@ -8,6 +8,61 @@
 	"__filters": ["sentencesFilter", "whitelist", "wordFilter", "nameFilter"],
 	"sentencesFilter" : [
 		{
+		    "filter": "wordFilter",
+		    "modAction": "KICK",
+		    "list": [
+			["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european", "mexican"],
+			["people", "women", "men", "peeps", "boys", "girls", "boy", "girl", "human", "humans", "peepz", "ladies", "blokes", "fellas", "lady", "bloke", "fella", "chick", "chicks", "dude", "dudes", "guys", "guy", "person"],
+			["is", "are", "should", "must"],
+			["die", "riot", "a killer", "killers", "kill", "arapist", "rape", "rapists", "leave", "disappear", "cheats", "cheat", "cheaters", "aterrorist", "terrorists", "bad", "notnice", "notgood", "nothonest", "nothuman", "nothumans", "notpeople", "aslave", "slave", "slaves", "perish", "dead", "cancer", "burn", "rot", "choke", "scum", "thug", "thugs", "low", "basic", "pay", "worthless", "nothing", "steal", "avirus", "amenace", "aproblem", "theproblem", "go", "get", "leave"]
+		    ]
+		}, {
+		    "filter": "wordFilter",
+		    "modAction": "KICK",
+		    "list": [
+			["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european", "mexican"],
+			["people", "women", "men", "peeps", "boys", "girls", "boy", "girl", "human", "humans", "peepz", "ladies", "blokes", "fellas", "lady", "bloke", "fella", "chick", "chicks", "dude", "dudes", "guys", "guy", "person"],
+			["will", "would", "could", "can"],
+			["die", "steal", "cheat", "kill", "murder", "rape", "plunder", "pillage", "lie"]
+		    ]
+		},
+		{
+		    "filter" : "wordFilter",
+		    "modAction" : "KICK",
+		    "list" : [
+			["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european", "mexican"],
+			["people", "women", "men", "peeps", "boys", "girls", "boy", "girl", "human", "humans", "peepz", "ladies", "blokes", "fellas", "lady", "bloke", "fella", "chick", "chicks", "dude", "dudes", "guys", "guy", "person"],
+			["dont", "cant", "shouldnt", "arenot", "donot", "shouldnot", "cannot", "couldnot", "arent"],
+			["human", "real", "honest", "vote", "haverights", "exist", "live", "multiply", "havekids", "deserve", "real", "breathe", "amount", "behere", "behonest"]
+		    ]
+		},
+		{
+		    "filter": "wordFilter",
+		    "modAction": "KICK",
+		    "list": [
+			["blacks", "whites", "browns", "asians", "mexicans", "europeans", "africans", "yellows", "indians", "lesbians", "gays", "homos", "transgenders", "hispanics"],
+			["is", "are", "should", "must"],
+			["die", "riot", "a killer", "killers", "kill", "arapist", "rape", "rapists", "leave", "disappear", "cheats", "cheat", "cheaters", "aterrorist", "terrorists", "bad", "notnice", "notgood", "nothonest", "nothuman", "nothumans", "notpeople", "aslave", "slave", "slaves", "perish", "dead", "cancer", "burn", "rot", "choke", "scum", "thug", "thugs", "low", "basic", "pay", "worthless", "nothing", "steal", "avirus", "amenace", "aproblem", "theproblem", "go", "get", "leave"]
+		    ]
+		}, {
+		    "filter": "wordFilter",
+		    "modAction": "KICK",
+		    "list": [
+			["blacks", "whites", "browns", "asians", "mexicans", "europeans", "africans", "yellows", "indians", "lesbians", "gays", "homos", "transgenders", "hispanics"],
+			["will", "would", "could", "can"],
+			["die", "steal", "cheat", "kill", "murder", "rape", "plunder", "pillage", "lie"]
+		    ]
+		},
+		{
+		    "filter" : "wordFilter",
+		    "modAction" : "KICK",
+		    "list" : [
+			["blacks", "whites", "browns", "asians", "mexicans", "europeans", "africans", "yellows", "indians", "lesbians", "gays", "homos", "transgenders", "hispanics"],
+			["dont", "cant", "shouldnt", "arenot", "donot", "shouldnot", "cannot", "couldnot", "arent"],
+			["human", "real", "honest", "vote", "haverights", "exist", "live", "multiply", "havekids", "deserve", "real", "breathe", "amount", "behere", "behonest"]
+		    ]
+		},
+		{
 			"filter" : "wordFilter",
 			"modAction" : "KICK",
 			"list" : [
