@@ -17,17 +17,23 @@
 				["jew", "jews", "africans", "nigs", "niggers", "nggr", "nigger", "asians", "asian", "whites", "cracker", "crackers", "blacks", "gay", "gays", "homo", "homos", "trans", "transgender", "transgenders", "tranny", "tranies", "brown", "browns", "indian", "asian", "indians", "asians", "african", "africans", "babies", "baby"]
 			]
 		},
-
-
-
-
 		{
 			"filter" : "wordFilter",
 			"modAction" : "KICK",
 			"list" : [
 				["hate", "i hate", "ihate", "i despise", "idespite", "kill all", "i kill"],
-				["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european", "mexican"],
-				["people", "women", "men", "peeps", "boys", "girls", "boy", "girl", "human", "humans", "peepz", "ladies", "blokes", "fellas", "lady", "bloke", "fella", "chick", "chicks", "dude", "dudes", "guys", "guy", "person"]
+				["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european"],
+				["people", "women", "men", "peeps", "boys", "girls", "boy", "girl"]
+			]
+		},
+		{
+			"filter" : "wordFilter",
+			"modAction" : "KICK",
+			"list" : [
+				["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european"],
+				["people", "women", "men", "peeps", "boys", "girls", "boy", "girl", "human", "humans", "peepz", "ladies", "blokes", "fellas", "lady", "bloke", "fella", "chick", "chicks", "dude", "dudes", "guys", "guy" ],
+				["is", "are", "should", "must"],
+				["die", "dead", "cancer", "burn", "rot", "choke", "scum", "thug", "thugs", "low", "basic", "pay", "worthless", "nothing", "steal", "a virus", "a menace", "a problem", "the problem", "go"]
 			]
 		},
 		{
@@ -38,44 +44,6 @@
 				["blacks", "whites", "asians", "gays", "lesbians", "africans", "americans", "yellows", "browns", "indians", "europeans"]
 			]
 		},
-
-
-
-
-		{
-			"filter" : "wordFilter",
-			"modAction" : "KICK",
-			"list" : [
-				["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european", "mexican"],
-				["people", "women", "men", "peeps", "boys", "girls", "boy", "girl", "human", "humans", "peepz", "ladies", "blokes", "fellas", "lady", "bloke", "fella", "chick", "chicks", "dude", "dudes", "guys", "guy", "person"],
-				["is", "are", "should", "must"],
-				["die", "riot", "a killer", "killers", "kill", "a rapist", "rape", "rapists", "leave", "disappear" "cheats", "cheat", "cheaters", "a terrorist", "terrorists", "bad", "not nice", "not good", "not honest", "not human", "not humans", "not people", "a slave", "slave", "slaves", "perish", "dead", "cancer", "burn", "rot", "choke", "scum", "thug", "thugs", "low", "basic", "pay", "worthless", "nothing", "steal", "a virus", "a menace", "a problem", "the problem", "go", "get", "leave"]
-			]
-		},
-		{
-			"filter" : "wordFilter",
-			"modAction" : "KICK",
-			"list" : [
-				["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european", "mexican"],
-				["people", "women", "men", "peeps", "boys", "girls", "boy", "girl", "human", "humans", "peepz", "ladies", "blokes", "fellas", "lady", "bloke", "fella", "chick", "chicks", "dude", "dudes", "guys", "guy", "person"],
-				["will", "would", "could", "can"],
-				["die", "steal", "cheat", "kill", "murder", "rape", "plunder", "pillage", "lie"]
-			]
-		},
-		{
-			"filter" : "wordFilter",
-			"modAction" : "KICK",
-			"list" : [
-				["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european", "mexican"],
-				["people", "women", "men", "peeps", "boys", "girls", "boy", "girl", "human", "humans", "peepz", "ladies", "blokes", "fellas", "lady", "bloke", "fella", "chick", "chicks", "dude", "dudes", "guys", "guy", "person"],
-				["dont", "cant", "shouldnt", "are not", "do not", "should not", "can not", "could not"],
-				["human", "real", "honest", "vote", "have rights", "exist", "live", "multiply", "have kids", "deserve", "real", "breathe", "amount", "be here", "be honest"]
-			]
-		},
-
-
-
-
 		{
 			"filter" : "nameFilter",
 			"modAction" : "KICK",
