@@ -1,16 +1,15 @@
 {
-	"__comment" : [
+	"__comment": [
 		"  • Visit the README.md file for more information on how this filter works.          ",
 		"  • Properties starting with 2 underscores are comments and not used in the script.  ",
 		"  • CTRL + F a filter or modAction to find what you're looking for.                  "
 	],
 	"__modActions": ["NOTIFY", "KICK", "SOFT_BAN"],
 	"__filters": ["sentencesFilter", "whitelist", "wordFilter", "nameFilter"],
-	"sentencesFilter" : [
-		{
-			"filter" : "wordFilter",
-			"modAction" : "KICK",
-			"list" : [
+	"sentencesFilter": [{
+			"filter": "wordFilter",
+			"modAction": "KICK",
+			"list": [
 				["", "i", "we", "me"],
 				["kill", "murder", "stab", "erase", "gas"],
 				["", "all", "them", "those", "these", "this", "that", "every"],
@@ -18,74 +17,74 @@
 			]
 		},
 		{
-			"filter" : "wordFilter",
-			"modAction" : "KICK",
-			"list" : [
+			"filter": "wordFilter",
+			"modAction": "KICK",
+			"list": [
 				["hate", "i hate", "ihate", "i despise", "idespite", "kill all", "i kill"],
 				["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european"],
 				["people", "women", "men", "peeps", "boys", "girls", "boy", "girl"]
 			]
 		},
 		{
-			"filter" : "wordFilter",
-			"modAction" : "KICK",
-			"list" : [
+			"filter": "wordFilter",
+			"modAction": "KICK",
+			"list": [
 				["hate", "ihate", "despise", "idespite", "kill all", "i kill"],
 				["blacks", "whites", "asians", "gays", "lesbians", "africans", "americans", "yellows", "browns", "indians", "europeans"]
 			]
 		},
 		{
-			"filter" : "nameFilter",
-			"modAction" : "KICK",
-			"list" : [
+			"filter": "nameFilter",
+			"modAction": "KICK",
+			"list": [
 				["adolf", "adilf", "adulf", "adelf", "adulf", "edolf", "odalf", "edalf"],
 				["hitler", "hatler", "hotler", "hutler", "hetler", "hitlir", "hitlar", "hitlor", "hitlur", "hiter", "hater", "Hit(er", "Hit)er"]
 			]
 		},
 		{
-			"filter" : "wordFilter",
-			"modAction" : "KICK",
-			"list" : [
+			"filter": "wordFilter",
+			"modAction": "KICK",
+			"list": [
 				["horne", "horny", "wet"],
 				["girl", "boy", "baby"]
 			]
 		},
 		{
-			"filter" : "nameFilter",
-			"modAction" : "KICK",
-			"list" : [
+			"filter": "nameFilter",
+			"modAction": "KICK",
+			"list": [
 				["your", "ur", "yo", "u", "jo", "joe", "yur", "jur", "jour", "dein", "deine", "ihr", "sein", "seine"],
 				["momma", "mom", "mum", "mam", "mama", "mamma", "mumma", "mommy", "mammy", "dadda", "daddy", "dad", "dady", "gay", "gae", "gea", "gey", "gaeh", "geah", "nan", "nanny", "father", "fother", "pops", "vater", "fatter", "fater", "mutter", "muter"]
 			]
 		},
 		{
-			"filter" : "nameFilter",
-			"modAction" : "KICK",
-			"list" : [
-				["black", "white", "yellow", "brown", "hot", "pretty", "beautiful", "young", "dirty", "tween","single", "thick", "lonely", "love", "lover", "naked", "nude", "looking4", "looking for", "need", "need for", "hawt", "thic", "thicc", "jealous", "popular", "interested", "interesting"],
+			"filter": "nameFilter",
+			"modAction": "KICK",
+			"list": [
+				["black", "white", "yellow", "brown", "hot", "pretty", "beautiful", "young", "dirty", "tween", "single", "thick", "lonely", "love", "lover", "naked", "nude", "looking4", "looking for", "need", "need for", "hawt", "thic", "thicc", "jealous", "popular", "interested", "interesting"],
 				["pervert", "hottie", "tomboy", "peep", "peeps", "peepz", "baby", "femboy", "trans", "sissy", "transvestite"]
 			]
 		},
 		{
-			"filter" : "nameFilter",
-			"modAction" : "KICK",
-			"list" : [
+			"filter": "nameFilter",
+			"modAction": "KICK",
+			"list": [
 				["tik", "tick", "tic"],
 				["tok", "tock", "toc"]
 			]
 		},
 		{
-			"filter" : "nameFilter",
-			"modAction" : "KICK",
-			"list" : [
+			"filter": "nameFilter",
+			"modAction": "KICK",
+			"list": [
 				["homo", "bi", "trans", "lesbian", "gay"],
 				["sexual", "gender", ""]
 			]
 		},
 		{
-			"filter" : "nameFilter",
-			"modAction" : "KICK",
-			"list" : [
+			"filter": "nameFilter",
+			"modAction": "KICK",
+			"list": [
 				["pee", "poo"],
 				["", "pee", "poo"],
 				["", "pee", "poo"],
@@ -95,126 +94,168 @@
 			]
 		},
 		{
-			"filter" : "nameFilter",
-			"modAction" : "KICK",
-			"list" : [
+			"filter": "nameFilter",
+			"modAction": "KICK",
+			"list": [
 				["suck", "sock", "seck", "sug", "lick", "lig", "jerk", "touch", "fap", "kick", "hit", "slap", "stroke"],
 				["", "my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma", "your", "ur", "joe", "yur", "jur", "jour", "deez", "dees"],
 				["cock", "cuck", "balls", "ballz", "ball", "nut", "nutz", "nuts", "penis", "penes", "pene", "peni", "penez", "peniz", "dick", "dicc", "penises", "anus", "anos", "dong"]
 			]
 		},
 		{
-			"__comment" : "partial copy of the sentenceFilter object above",
-			"filter" : "nameFilter",
-			"modAction" : "KICK",
-			"list" : [
+			"__comment": "partial copy of the sentenceFilter object above",
+			"filter": "nameFilter",
+			"modAction": "KICK",
+			"list": [
 				["suck", "sock", "seck", "sug", "lick", "lig", "jerk", "fap", "stroke"],
 				["my", "me", "his", "her", "them", "their", "there", "yo", "jo", "your", "ma", "your", "ur", "joe", "yur", "jur", "jour", "deez", "dees"]
 			]
 		}
 	],
-	"whitelist" : [
-			"7 it",
-			"7 its",
-			"7 it's",
-			"sketchful",
-			"'re",
-			"0v0",
-			"0w0",
-			"45s",
-			"5x",
-			":0",
-			":P",
-			";p",
-			"=0",
-			"=p",
-			"all",
-			"an",
-			"annal",
-			"anvl",
-			"applebottomjeans",
-			"as",
-			"balz",
-			"baseball",
-			"basketball",
-			"blish",
-			"Boll",
-			"butterfly",
-			"c:",
-			"cheesed",
-			"chota",
-			"cool",
-			"cowboy",
-			"dich",
-			"ding dong",
-			"dlc",
-			"faaag",
-			"faag",
-			"fan",
-			"fans",
-			"faág",
-			"faäg",
-			"faég",
-			"flashlight",
-			"flishlight",
-			"floshlight",
-			"flushlight",
-			"football",
-			"füllen",
-			"ga,e",
-			"gal",
-			"gali",
-			"good",
-			"gumball",
-			"icle",
-			"it",
-			"its",
-			"kikee",
-			"kumm",
-			"lick",
-			"like",
-			"no",
-			"penne",
-			"Pepe",
-			"pflücken",
-			"pls",
-			"plss",
-			"plsss",
-			"poz",
-			"pozz",
-			"pµp",
-			"päron",
-			"rappe",
-			"rapped",
-			"rapper",
-			"rappers",
-			"robot",
-			"schilt",
-			"sheet",
-			"sk0w0",
-			"slutt",
-			"tides",
-			"tilt",
-			"tilts",
-			"title",
-			"titles",
-			"uhm",
-			"uranos",
-			"uranus",
-			"vaaaag",
-			"vaaag",
-			"vaag",
-			"whack",
-			"who're",
-			"wie nie",
-			"ég"
+	"whitelist": [
+		"'re",
+		"0v0",
+		"0w0",
+		"45s",
+		"5x",
+		"7its",
+		"7it",
+		":0",
+		":P",
+		";p",
+		"=0",
+		"=p",
+		"all",
+		"an",
+		"annal",
+		"anvl",
+		"applebottomjeans",
+		"as",
+		"balz",
+		"baseball",
+		"basketball",
+		"blish",
+		"Boll",
+		"butterfly",
+		"c:",
+		"cheesed",
+		"chota",
+		"cool",
+		"cowboy",
+		"dich",
+		"ding dong",
+		"dlc",
+		"faaag",
+		"faag",
+		"fan",
+		"fans",
+		"faág",
+		"faäg",
+		"faég",
+		"flashlight",
+		"flishlight",
+		"floshlight",
+		"flushlight",
+		"football",
+		"füllen",
+		"ga,e",
+		"gal",
+		"gali",
+		"good",
+		"gumball",
+		"icle",
+		"it",
+		"its",
+		"kikee",
+		"kumm",
+		"lick",
+		"like",
+		"no",
+		"penne",
+		"Pepe",
+		"pflücken",
+		"pls",
+		"plss",
+		"plsss",
+		"poz",
+		"pozz",
+		"pussinboots",
+		"pµp",
+		"päron",
+		"rappe",
+		"rapped",
+		"rapper",
+		"rappers",
+		"robot",
+		"schilt",
+		"sheet",
+		"sk0w0",
+		"slutt",
+		"tides",
+		"tilt",
+		"tilts",
+		"title",
+		"titles",
+		"uhm",
+		"uranos",
+		"uranus",
+		"vaaaag",
+		"vaaag",
+		"vaag",
+		"whack",
+		"who're",
+		"wie nie",
+		"ég"
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
-	"hardNameFilter" : [],
-	"nameFilter" : {
-		"NOTIFY" : [],
-		"KICK" : [
-			"stupididiot",
+	"hardNameFilter": [
+		"balls",
+		"bitch",
+		"blackpeople",
+		"boobies",
+		"boobs",
+		"cancer",
+		"cock",
+		"cottonpick",
+		"dick",
+		"faggot",
+		"fuck",
+		"hater",
+		"hentai",
+		"hitler",
+		"homophobe",
+		"homophobia",
+		"homophobic",
+		"juicy",
+		"lgbt",
+		"muslim",
+		"nazi",
+		"nigga",
+		"nigger",
+		"nigro",
+		"pedo",
+		"peepee",
+		"penis",
+		"pussy",
+		"racist",
+		"racist",
+		"rapist",
+		"retard",
+		"schlong",
+		"single",
+		"slave",
+		"slaves",
+		"vagana",
+		"vagina",
+		"weenie",
+		"whore",
+		"willy"
+	],
+	"nameFilter": {
+		"NOTIFY": [
+			"Art3miss"
+		],
+		"KICK": [
 			"8=d",
 			"[ADMIN]",
 			"[DEV]",
@@ -680,16 +721,15 @@
 			"𝓓𝓲𝓿𝓪",
 			"🖤♡🕸🔗♁🔪🥀🕸"
 		],
-		"SOFT_BAN" : []
+		"SOFT_BAN": []
 	},
-	"wordFilter" : {
-		"NOTIFY" : [
+	"wordFilter": {
+		"NOTIFY": [
 			"dong",
 			"nani",
 			"feet smell"
 		],
-		"KICK" : [
-			"skribblisbetter",
+		"KICK": [
 			"$hit",
 			"(,)(,)",
 			"(,y,)",
@@ -885,6 +925,7 @@
 			"butplug",
 			"butplugs",
 			"butplugz",
+			"buttlicker",
 			"bxtch",
 			"byatch",
 			"byatches",
@@ -927,6 +968,7 @@
 			"chutiyes",
 			"chutiyo",
 			"chutiyos",
+			"cigbock",
 			"circumcision",
 			"circumcisions",
 			"circumcisionz",
@@ -1156,6 +1198,10 @@
 			"fapping",
 			"faq",
 			"faqing",
+			"fawk",
+			"fawker",
+			"fawkers",
+			"fawking",
 			"fayget",
 			"faygets",
 			"faygot",
@@ -1923,6 +1969,7 @@
 			"nigg",
 			"nigge",
 			"nigger",
+			"niggus",
 			"nigha",
 			"nighahr",
 			"nighahrs",
@@ -2084,7 +2131,7 @@
 			"njghirz",
 			"njghjhr",
 			"njghjhrs",
-			"njghjhrz",	
+			"njghjhrz",
 			"njghjr",
 			"njghjrs",
 			"njghjrz",
@@ -2380,6 +2427,7 @@
 			"pemis",
 			"pen!s",
 			"penes",
+			"penile",
 			"penis",
 			"penisses",
 			"peniz",
@@ -2398,6 +2446,7 @@
 			"phack",
 			"phacker",
 			"phacking",
+			"phalic",
 			"phuc",
 			"phuck",
 			"phucker",
@@ -2597,6 +2646,7 @@
 			"skank",
 			"skribbl.io",
 			"skribbleisbetter",
+			"skribblisbetter",
 			"slut",
 			"slutty",
 			"smalld",
@@ -2804,7 +2854,7 @@
 			"卍",
 			"𝖵𝖴𝖱.𝖥𝖸𝖨"
 		],
-		"SOFT_BAN" : [
+		"SOFT_BAN": [
 			"nigger",
 			"hitler"
 		]
