@@ -77,6 +77,38 @@
 
 
 		{
+			"filter" : "wordFilter",
+			"modAction" : "KICK",
+			"list" : [
+				["blacks", "whites", "browns", "asians", "mexicans", "europeans", "africans", "yellows", "indians", "lesbians", "gays", "homos", "transgenders", "hispanics"],
+				["is", "are", "should", "must"],
+				["die", "riot", "a killer", "killers", "kill", "a rapist", "rape", "rapists", "leave", "disappear" "cheats", "cheat", "cheaters", "a terrorist", "terrorists", "bad", "not nice", "not good", "not honest", "not human", "not humans", "not people", "a slave", "slave", "slaves", "perish", "dead", "cancer", "burn", "rot", "choke", "scum", "thug", "thugs", "low", "basic", "pay", "worthless", "nothing", "steal", "a virus", "a menace", "a problem", "the problem", "go", "get", "leave"]
+			]
+		},
+		{
+			"filter" : "wordFilter",
+			"modAction" : "KICK",
+			"list" : [
+				["blacks", "whites", "browns", "asians", "mexicans", "europeans", "africans", "yellows", "indians", "lesbians", "gays", "homos", "transgenders", "hispanics"],
+				["will", "would", "could", "can"],
+				["die", "steal", "cheat", "kill", "murder", "rape", "plunder", "pillage", "lie"]
+			]
+		},
+		{
+			"filter" : "wordFilter",
+			"modAction" : "KICK",
+			"list" : [
+				["blacks", "whites", "browns", "asians", "mexicans", "europeans", "africans", "yellows", "indians", "lesbians", "gays", "homos", "transgenders", "hispanics"],
+				["dont", "cant", "shouldnt", "are not", "do not", "should not", "can not", "could not"],
+				["human", "real", "honest", "vote", "have rights", "exist", "live", "multiply", "have kids", "deserve", "real", "breathe", "amount", "be here", "be honest"]
+			]
+		},
+
+
+
+
+
+		{
 			"filter" : "nameFilter",
 			"modAction" : "KICK",
 			"list" : [
