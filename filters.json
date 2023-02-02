@@ -16,7 +16,8 @@
 			["is", "are", "should", "must"],
 			["die", "riot", "a killer", "killers", "kill", "arapist", "rape", "rapists", "leave", "disappear", "cheats", "cheat", "cheaters", "aterrorist", "terrorists", "bad", "notnice", "notgood", "nothonest", "nothuman", "nothumans", "notpeople", "aslave", "slave", "slaves", "perish", "dead", "cancer", "burn", "rot", "choke", "scum", "thug", "thugs", "low", "basic", "pay", "worthless", "nothing", "steal", "avirus", "amenace", "aproblem", "theproblem", "go", "get", "leave"]
 		    ]
-		}, {
+		}, 
+		{
 		    "filter": "wordFilter",
 		    "modAction": "KICK",
 		    "list": [
