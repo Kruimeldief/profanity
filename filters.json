@@ -250,13 +250,21 @@
 		"vagina",
 		"weenie",
 		"whore",
-		"willy"
+		"willy",
+		"instagram",
+		"snapchat",
+		"discord",
+		"whatsapp",
+		"gmail"
+
 	],
 	"nameFilter": {
 		"NOTIFY": [
 			"Art3miss"
 		],
 		"KICK": [
+			"snap",
+			"insta",
 			"moan",
 			"moaning",
 			"dong",
