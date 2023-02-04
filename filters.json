@@ -260,7 +260,10 @@
 	],
 	"nameFilter": {
 		"NOTIFY": [
-			"Art3miss"
+			"Art3miss",
+			"nani",
+			"𝙶𝚁𝙴𝚈",
+			"grey"
 		],
 		"KICK": [
 			"poopi",
@@ -742,7 +745,6 @@
 	},
 	"wordFilter": {
 		"NOTIFY": [
-			"nani",
 			"feet smell"
 		],
 		"KICK": [
