@@ -229,6 +229,12 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+		"snap:",
+		"snp:",
+		"insta:",
+		"sc:",
+		"ins:",
+		"inst:",
 		"gay",
 		"balls",
 		"bitch",
