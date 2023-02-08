@@ -232,6 +232,10 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+		"grindr",
+		"tinder",
+		"tumblr",
+		"wordpress",
 		"spotify",
 		"ebay:",
 		"steam:",
