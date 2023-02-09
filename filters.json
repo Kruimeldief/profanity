@@ -113,6 +113,7 @@
 		}
 	],
 	"whitelist": [
+			"bills",
 			"put o",
 			"ran de",
 			"nee gar",
