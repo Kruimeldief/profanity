@@ -234,6 +234,10 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+		"autokick",
+		"kickme",
+		"banme",
+		"votekickme",
 		"andrewtate",
 		"children",
 		"bumble:",
