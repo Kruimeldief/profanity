@@ -241,6 +241,8 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"joebiden",
+			"donaldtrump",
 			"andrewtate",
 			"autokick",
 			"balls",
@@ -346,6 +348,8 @@
 			"mike",
 		],
 		"KICK": [
+			"biden",
+			"trump",
 			"8=d",
 			"[ADMIN]",
 			"[DEV]",
