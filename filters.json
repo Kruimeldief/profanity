@@ -113,6 +113,7 @@
 		}
 	],
 	"whitelist": [
+			"bils",
 			"bills",
 			"put o",
 			"ran de",
