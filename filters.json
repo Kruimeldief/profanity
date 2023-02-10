@@ -274,6 +274,10 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"showsomebob",
+			"showsometit",
+			"showmebob",
+			"showmetit",
 			"jeferydaemher",
 			"jeferydaemher",
 			"jeferydamher",
