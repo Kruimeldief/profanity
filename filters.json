@@ -113,6 +113,10 @@
 		}
 	],
 	"whitelist": [
+			"plsman",
+			"pls man",
+			"plswoman",
+			"pls woman",
 			"bliz",
 			"te stes",
 			"tes tes",
@@ -922,6 +926,11 @@
 			"feet smell"
 		],
 		"KICK": [
+			"thesenuts",
+			"bch",
+			"piswoman",
+			"pisman",
+			"pissy",
 			"hurensohne",
 			"hurensohn",
 			"hurenson",
