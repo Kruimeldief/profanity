@@ -2,7 +2,7 @@
 	"__comment": [
 		"  • Visit the README.md file for more information on how this filter works.          ",
 		"  • Properties starting with 2 underscores are comments and not used in the script.  ",
-		"  • CTRL + F a filter or modAction to find what you're looking for.                  "
+		"  • CTRL + F a filter or modAction to find what you're looking for.                  ",
 	],
 	"__modActions": ["NOTIFY", "KICK", "SOFT_BAN"],
 	"__filters": ["sentencesFilter", "whitelist", "wordFilter", "nameFilter"],
