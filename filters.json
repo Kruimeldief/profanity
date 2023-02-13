@@ -113,7 +113,6 @@
 		}
 	],
 	"whitelist": [
-			"poobutt",
 			"ray pee",
 			"khatera",
 			"ggg and",
@@ -301,6 +300,7 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"poobutt",
 			"sendnudes",
 			"paedophilia",
 			"nudes",
