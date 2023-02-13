@@ -113,6 +113,8 @@
 		}
 	],
 	"whitelist": [
+			"is",
+			"ben",
 			"pens is",
 			"pen sis",
 			"ray pee",
