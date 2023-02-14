@@ -113,6 +113,8 @@
 		}
 	],
 	"whitelist": [
+			"diiid",
+			"diid",
 			"ben!",
 			"ben.",
 			"ben?",
