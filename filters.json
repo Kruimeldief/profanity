@@ -310,6 +310,10 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"bstrd",
+			"bastrd",
+			"basterd",
+			"bsterd",
 			"cotonpker",
 			"cotenpker",
 			"cotanpker",
@@ -1172,6 +1176,10 @@
 			"feet smell"
 		],
 		"KICK": [
+			"bstrd",
+			"bastrd",
+			"basterd",
+			"bsterd",
 			"fwqer",
 			"fawqers",
 			"fuwqesr",
