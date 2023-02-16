@@ -323,6 +323,12 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"suckmy",
+			"suckyour",
+			"suckhis",
+			"suckher",
+			"sucktheir",
+			"suckour",
 			"chinese",
 			"hacker",
 			"hackers",
