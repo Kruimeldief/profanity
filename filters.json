@@ -1197,6 +1197,8 @@
 			"feet smell"
 		],
 		"KICK": [
+			"talkroomio",
+			"talkroom",
 			"pwnis",
 			"pwenis",
 			"prenis",
