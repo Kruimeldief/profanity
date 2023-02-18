@@ -1223,6 +1223,7 @@
 	},
 	"wordFilter": {
 		"NOTIFY": [
+			"the f",
 			"feet smell"
 		],
 		"KICK": [
