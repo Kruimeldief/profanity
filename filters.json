@@ -333,6 +333,8 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"deinmuda",
+			"deinemuda",
 			"mutter",
 			"german",
 			"austrian",
@@ -1222,6 +1224,14 @@
 			"feet smell"
 		],
 		"KICK": [
+			"hur",
+			"huren",
+			"selbtmordattacke",
+			"selbtmordattack",
+			"selbstmordattacke",
+			"selbstmordattack",
+			"selbtmord",
+			"selbstmord",
 			"duledig",
 			"binsingle",
 			"binledig",
