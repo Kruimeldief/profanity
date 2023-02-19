@@ -345,8 +345,8 @@
 			"deinmuda",
 			"deinemuda",
 			"mutter",
-			"german",
-			"austrian",
+			"germanpainter",
+			"austrianpainter",
 			"mustardgas",
 			"blackskin",
 			"african",
@@ -1235,6 +1235,7 @@
 			"feet smell"
 		],
 		"KICK": [
+			"fdich",
 			"nihg",
 			"bastart",
 			"mikeliterus",
