@@ -113,6 +113,10 @@
 		}
 	],
 	"whitelist": [
+			" is",
+			" pen",
+			"is ",
+			"pen ",
 			"anvi",
 			"stray kids",
 			"straykids",
