@@ -113,6 +113,8 @@
 		}
 	],
 	"whitelist": [
+		"asking",
+		"askin",
 			"shhh, it",
 			"shh, it",
 			"shhh! it",
