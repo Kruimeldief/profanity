@@ -113,6 +113,11 @@
 		}
 	],
 	"whitelist": [
+			"she? it",
+			"she! it",
+			"she. it",
+			"she it",
+			"she, it",
 			"pen is",
 			" is",
 			" pen",
