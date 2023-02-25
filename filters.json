@@ -1626,6 +1626,8 @@
 			"feet smell"
 		],
 		"KICK": [
+			"malsnapchat",
+			"malsnap",
 			"jackenof",
 			"givemehead",
 			"givehead",
