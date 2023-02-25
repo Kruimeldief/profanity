@@ -6,9 +6,7 @@
 	],
 	"__modActions": ["NOTIFY", "KICK", "SOFT_BAN"],
 	"__filters": ["sentencesFilter", "whitelist", "wordFilter", "nameFilter"],
-	"sentencesFilter": [{
-			"filter": "wordFilter",
-			"modAction": "KICK",
+	"sentencesFilter": [{			"modAction": "KICK",
 			"list": [
 				["", "i", "we", "me"],
 				["kill", "murder", "stab", "erase", "gas"],
@@ -1619,6 +1617,7 @@
 			"feet smell"
 		],
 		"KICK": [
+			"seaman",
 			"testickle",
 			"jackmehauf",
 			"dicp",
