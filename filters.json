@@ -111,9 +111,11 @@
 		}
 	],
 	"whitelist": [
-		"asking",
-		"askin",
-		"floppy disc",
+			"na sea",
+			"na see",
+			"asking",
+			"askin",
+			"floppy disc",
 			"gg er",
 			"6c",
 			"an ai",
@@ -1637,6 +1639,10 @@
 			"feet smell"
 		],
 		"KICK": [
+			"nazea",
+			"nazee",
+			"nasea",
+			"nasee",
 			"honry",
 			"cumz",
 			"cums",
