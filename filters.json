@@ -1670,6 +1670,8 @@
 			"feet smell"
 		],
 		"KICK": [
+			"posay",
+			"pusay",
 			"nazea",
 			"nazee",
 			"nasea",
