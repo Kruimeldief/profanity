@@ -111,6 +111,7 @@
 		}
 	],
 	"whitelist": [
+			"sea man",
 			"bobsburgers",
 			"bobsburger",
 			"bobs burgers",
@@ -1336,6 +1337,7 @@
 	},
 	"wordFilter": {
 		"NOTIFY": [
+			"5115",
 			"4269",
 			"1807",
 			"5670",
