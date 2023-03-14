@@ -111,6 +111,10 @@
 		}
 	],
 	"whitelist": [
+			"haram!",
+			"haram!!",
+			"haram!!!",
+			"haram!!!!",
 			"an ai?",
 			"an ai??",
 			"an ai???",
