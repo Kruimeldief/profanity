@@ -19,7 +19,7 @@
 			"modAction": "KICK",
 			"list": [
 				["hate", "i hate", "ihate", "i despise", "idespite", "kill all", "i kill", "fuck", "f"],
-				["black", "white", "asian", "gay", "lesbian", "african", "american", "yellow", "brown", "indian", "european"],
+				["black", "white", "asian", "gay", "lesbian", "african", "yellow", "brown", "indian", "european"],
 				["people", "women", "men", "peeps", "boys", "girls", "boy", "girl"]
 			]
 		},
@@ -28,7 +28,7 @@
 			"modAction": "KICK",
 			"list": [
 				["hate", "ihate", "despise", "idespite", "kill all", "i kill", "fuck", "f"],
-				["blacks", "whites", "asians", "gays", "lesbians", "africans", "americans", "yellows", "browns", "indians", "europeans"]
+				["blacks", "whites", "asians", "gays", "lesbians", "africans", "yellows", "browns", "indians", "europeans"]
 			]
 		},
 		{
@@ -1806,6 +1806,8 @@
 			"feet smell"
 		],
 		"KICK": [
+			"ihateamerica",
+			"ihateamericans",
 			"skshit",
 			"fukce",
 			"fucke",
