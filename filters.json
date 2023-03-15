@@ -111,6 +111,7 @@
 		}
 	],
 	"whitelist": [
+			"bob bee",
 			"qq and",
 			"q and",
 			"pen nicee",
@@ -1404,6 +1405,7 @@
 	},
 	"wordFilter": {
 		"NOTIFY": [
+			"6969",
 			"6949",
 			"0260",
 			"3860",
