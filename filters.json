@@ -488,6 +488,10 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"indiascamer",
+			"indianscamer",
+			"indiascam",
+			"indianscam",
 			"deinemami",
 			"pdfile",
 			"poop",
@@ -1812,6 +1816,9 @@
 			"feet smell"
 		],
 		"KICK": [
+			"ihateindia",
+			"ihateindian",
+			"ihateindians",
 			"Vejayjays",
 			"Vejayjay",
 			"Vajayjays",
