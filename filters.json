@@ -111,6 +111,18 @@
 		}
 	],
 	"whitelist": [
+			"fr, ig.",
+			"fr. ig.",
+			"fr? ig.",
+			"fr ig.",
+			"fr, ig?",
+			"fr. ig?",
+			"fr? ig?",
+			"fr ig?",
+			"fr, ig",
+			"fr. ig",
+			"fr? ig",
+			"fr ig",
 			"ne ga",
 			"nee ga",
 			"loch",
