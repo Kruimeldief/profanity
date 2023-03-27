@@ -111,7 +111,6 @@
 		}
 	],
 	"whitelist": [
-			"mfer",
 			"loch!",
 			"loch!!",
 			"loch!!!",
@@ -1922,6 +1921,7 @@
 			"feet smell"
 		],
 		"KICK": [
+			"mfer",
 			"josephgoebels",
 			"adolfus",
 			"motherfather",
