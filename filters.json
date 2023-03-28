@@ -111,7 +111,13 @@
 		}
 	],
 	"whitelist": [
+			"loch#",
 			"hi jade",
+			"hi jade.",
+			"hi jade..",
+			"hi jade...",
+			"hi jade?",
+			"hi jade,",
 			"hi jade!",
 			"hi jade!!",
 			"hi jade!!!",
