@@ -111,6 +111,8 @@
 		}
 	],
 	"whitelist": [
+			"pennys",
+			"penny's",
 			"fel ich",
 			"feli ich",
 			"10 du",
@@ -1021,6 +1023,13 @@
 			"ybn.marcus"
 		],
 		"KICK": [
+			"yamama",
+			"yamom",
+			"yamother",
+			"yamoma",
+			"yamum",
+			"yamotha",
+			"yamothar",
 			"yuhmotha",
 			"yuhmom",
 			"yuhmum",
@@ -1950,6 +1959,7 @@
 			"feet smell"
 		],
 		"KICK": [
+			"penys",
 			"nigeger",
 			"motherfricker",
 			"motherflipah",
