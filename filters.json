@@ -586,6 +586,8 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"lgbt",
+			"lgbq",
 			"bilcosby",
 			"transvestite",
 			"queer",
@@ -1024,6 +1026,7 @@
 			"ybn.marcus"
 		],
 		"KICK": [
+			"trans",
 			"yamama",
 			"yamom",
 			"yamother",
