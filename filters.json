@@ -586,6 +586,7 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"LGBBQ",
 			"lgbt",
 			"lgbq",
 			"bilcosby",
