@@ -52,7 +52,8 @@
 			"modAction": "KICK",
 			"list": [
 				["your", "ur", "yo", "u", "jo", "joe", "yur", "jur", "jour", "dein", "deine", "ihr", "sein", "seine"],
-				["momma", "mom", "mum", "mam", "mama", "mamma", "mumma", "mommy", "mammy", "dadda", "daddy", "dad", "dady", "gay", "gae", "gea", "gey", "gaeh", "geah", "nan", "nanny", "father", "fother", "pops", "vater", "fatter", "fater", "mutter", "muter"]
+				["momma", "mom", "mum", "mam", "mama", "mamma", "mumma", "mommy", "mammy", "dadda", "daddy", "dad", "dady", "gay", "gae", "gea", "gey", "gaeh", "geah", "nan", "nanny", "father", "fother", "pops", "vater", "fatter", "fater", "mutter", "muter"],
+				["", "fat", "pig"]
 			]
 		},
 		{
@@ -1063,6 +1064,7 @@
 			"ybn.marcus"
 		],
 		"KICK": [
+			"yomamapig",
 			"lesbo",
 			"lesbos",
 			"deineoma",
