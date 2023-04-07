@@ -6,7 +6,10 @@
 	],
 	"__modActions": ["NOTIFY", "KICK", "SOFT_BAN"],
 	"__filters": ["sentencesFilter", "whitelist", "wordFilter", "nameFilter"],
-	"sentencesFilter": [{			"modAction": "KICK",
+	"sentencesFilter": [
+		{
+			"filter": "wordFilter",
+			"modAction": "KICK",
 			"list": [
 				["", "i", "we", "me"],
 				["kill", "murder", "stab", "erase", "gas", "fuck", "f"],
