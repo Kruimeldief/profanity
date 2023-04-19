@@ -115,6 +115,8 @@
 		}
 	],
 	"whitelist": [
+			"put 4",
+			"put4",
 			"Stray kids",
 			"10, du?",
 			"10! du?",
