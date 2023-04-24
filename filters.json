@@ -30,6 +30,15 @@
 			"filter": "wordFilter",
 			"modAction": "KICK",
 			"list": [
+				["cog", "cock", "coc", "cug", "cuck"],
+				["and", "un", "&", "an"],
+				["bals", "balls", "bols", "bolls"]
+			]
+		},
+		{
+			"filter": "wordFilter",
+			"modAction": "KICK",
+			"list": [
 				["hate", "ihate", "despise", "idespite", "kill all", "i kill", "fuck", "f"],
 				["blacks", "whites", "asians", "gays", "lesbians", "africans", "yellows", "browns", "indians", "europeans"]
 			]
