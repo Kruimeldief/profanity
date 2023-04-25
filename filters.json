@@ -124,6 +124,8 @@
 		}
 	],
 	"whitelist": [
+			"wb",
+			"tie",
 			"put 4",
 			"put4",
 			"Stray kids",
