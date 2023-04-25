@@ -124,6 +124,7 @@
 		}
 	],
 	"whitelist": [
+			"zemmen",
 			"wb",
 			"tie",
 			"put 4",
