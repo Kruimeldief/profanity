@@ -665,6 +665,7 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"Hugh Janus",
 			"LGBBQ",
 			"lgbt",
 			"lgbq",
@@ -1113,7 +1114,7 @@
 			"ybn.marcus"
 		],
 		"KICK": [
-			"hugh janus",
+			"Hugh Janus",
 			"yomamapig",
 			"lesbo",
 			"lesbos",
