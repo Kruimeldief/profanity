@@ -175,6 +175,7 @@
 		}
 	],
 	"whitelist": [
+			"for skin",
 			"sim",
 		        "tyt",
 		        "pizza",
