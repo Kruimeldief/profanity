@@ -727,6 +727,7 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"빙",
 			"Hugh Janus",
 		        "jeffrey epstein",
 		        "anna borshin",
@@ -1203,6 +1204,9 @@
 			"normalyear",
 			"kruimel",
 			"clairdeline",
+			"bings",
+			"bing",
+			"빙",
 			"ybn.marcus"
 		],
 		"KICK": [
@@ -12162,7 +12166,8 @@
 			"𝖵𝖴𝖱.𝖥𝖸𝖨"
 		],
 		"SOFT_BAN": [
-			"nigger"
+			"빙",
+			"nigger"			
 		]
 	}
 }
