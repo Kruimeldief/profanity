@@ -175,6 +175,10 @@
 		}
 	],
 	"whitelist": [
+			"bob:s",
+			"bob :s",
+			"bob:$",
+			"bob :$",			
 			"coook",
 			"cook",
 			"for skin",
