@@ -1194,6 +1194,7 @@
 	],
 	"nameFilter": {
 		"NOTIFY": [
+			"sugar",
 			"miel",
 			"tom",
 			"imp",
@@ -1794,6 +1795,7 @@
 	},
 	"wordFilter": {
 		"NOTIFY": [
+			"sugar",
 			"miel",
 			"6969",
 			"6949",
