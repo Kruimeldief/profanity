@@ -176,6 +176,7 @@
 	],
 	"whitelist": [
 			"bob:s",
+		        "boo bye",
 			"bob :s",
 			"bob:$",
 			"bob :$",			
