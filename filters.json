@@ -175,6 +175,14 @@
 		}
 	],
 	"whitelist": [
+			":''( ok",
+			":'( ok",
+			":( ok",
+			"( ok",
+			":''(ok",
+			":'(ok",
+			":(ok",
+			"(ok",
 			"bob:s",
 		        "boo bye",
 			"bob :s",
