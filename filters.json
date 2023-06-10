@@ -1807,6 +1807,7 @@
 	},
 	"wordFilter": {
 		"NOTIFY": [
+			"erp",
 			"sugar",
 			"miel",
 			"sugi",
