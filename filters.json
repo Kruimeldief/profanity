@@ -1809,6 +1809,7 @@
 	},
 	"wordFilter": {
 		"NOTIFY": [
+			"bing",
 			"erp",
 			"sugar",
 			"miel",
