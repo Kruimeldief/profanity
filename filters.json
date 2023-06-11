@@ -2238,6 +2238,8 @@
 			"feet smell"
 		],
 		"KICK": [
+			"havesax",
+			"wantsax",
 			"anedmorehead",
 			"bevkof",
 			"bewkof",
