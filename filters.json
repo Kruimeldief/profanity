@@ -1822,6 +1822,10 @@
 	"wordFilter": {
 		"NOTIFY": [
 			"banned",
+			"mod",
+                        "moderator",
+                        "mods",
+			"moderators",
 			"bing",
 			"erp",
 			"sugar",
