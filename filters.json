@@ -1823,13 +1823,6 @@
 	},
 	"wordFilter": {
 		"NOTIFY": [
-			"banned",
-			"mod",
-                        "moderator",
-                        "mods",
-			"moderators",
-			"unban",
-			"unbanned",
 			"thuwang",
 			"ghosty",
 			"fluffly",
