@@ -1215,6 +1215,8 @@
 	],
 	"nameFilter": {
 		"NOTIFY": [
+			"Bingbing",
+			"Booples",
 			"chef",
 			"messi",
 			"lionel",
@@ -1819,6 +1821,7 @@
 	},
 	"wordFilter": {
 		"NOTIFY": [
+			"banned",
 			"bing",
 			"erp",
 			"sugar",
