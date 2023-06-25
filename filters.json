@@ -175,7 +175,6 @@
 		}
 	],
 	"whitelist": [
-			"shag",
 			"gang bank",
 			"gang banker",
 			"gang bankers",
@@ -1870,6 +1869,9 @@
 	"wordFilter": {
 		"NOTIFY": [
 			"thuwang",
+			"shag",
+                        "shaging",
+                        "shaged",
 			"jewish",
 			"banned",
 			"ghosty",
@@ -2459,14 +2461,6 @@
 			"bewkof",
 			"budhu",
 			"bhosarike",
-			"shagyou",
-                        "shagher",
-                        "shaghim",
-                        "shagyour",
-                        "shagthem",
-                        "shagtheir",
-                        "shaghis",
-                        "shagingyou",
 			"kidtoucher",
                         "tigbitied",
 			"tigbities",
