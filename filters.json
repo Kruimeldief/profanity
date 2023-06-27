@@ -175,6 +175,10 @@
 		}
 	],
 	"whitelist": [
+			"facialfeature",
+			"facialfeatures",
+			"facial feature",
+			"facial features",
 			"c u my",
 		        "horn y",
 			"gang bank",
