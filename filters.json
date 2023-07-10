@@ -568,14 +568,14 @@
 		"wie nie",
 		"ég"
 	],
-	"__stringBuilder": [
+	"__stringBuilders": [
 		"  • Version: `basic` or `extended`.                                                    ",
 		"  • Filter: `whitelist`, `message`, `name` or `hardName`.                              ",
 		"  • ModAction: `notify`, `kick` or `ban`.                                              ",
 		"  • Separator: a character that separates each builder section.                        ",
 		"  • builder: multiple arrays (sections) that are appended to one another.              "
 	],
-	"stringBuilder": [
+	"stringBuilders": [
 		{
 			"version": "basic",
 			"filter": "message",
