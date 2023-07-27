@@ -1,0 +1,185 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "json.validate.enable": true,
+    "json.schemas": [
+      {
+        "fileMatch": [
+          "/filters.json"
+        ],
+        "schema": {
+          "title": "JSON schema for profanity moderation data",
+          "definitions": {
+            "stringBuilder": {
+              "type": [
+                "string",
+                "array"
+              ],
+              "description": "Array of string building blocks",
+              "if": {
+                "type": "array"
+              },
+              "then": {
+                "items": {
+                  "description": "Array of string segments",
+                  "type": [
+                    "string",
+                    "array"
+                  ],
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "profanityList": {
+              "type": "array",
+              "description": "Array of strings and string builders",
+              "items": {
+                "type": [
+                  "string",
+                  "array"
+                ],
+                "if": {
+                  "type": "array"
+                },
+                "then": {
+                  "$ref": "#/definitions/stringBuilder"
+                }
+              }
+            },
+            "severityProperties": {
+              "patternProperties": {
+                "^__[a-zA-Z]+$": {
+                  "$ref": "#/definitions/comment"
+                },
+                "^notify|kick|ban$": {
+                  "$ref": "#/definitions/profanityList"
+                }
+              },
+              "additionalProperties": false
+            },
+            "filterTypeProperties": {
+              "patternProperties": {
+                "^__[a-zA-Z]+$": {
+                  "$ref": "#/definitions/comment"
+                },
+                "^message|name|hardName$": {
+                  "$ref": "#/definitions/severityProperties"
+                }
+              },
+              "additionalProperties": false
+            },
+            "comment": {
+              "description": "Comment with more information on the property",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "enum": {
+              "description": "An enumeration of values for this property",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "type": "object",
+          "required": [
+            "whitelist"
+          ],
+          "patternProperties": {
+            "^__[a-zA-Z]+$": {
+              "$ref": "#/definitions/comment"
+            },
+            "^basic|extended$": {
+              "$ref": "#/definitions/filterTypeProperties",
+            }
+          },
+          "additionalProperties": false,
+          "properties": {
+            "__versions": {
+              "$ref": "#/definitions/enum"
+            },
+            "__modActions": {
+              "$ref": "#/definitions/enum"
+            },
+            "__filters": {
+              "$ref": "#/definitions/enum"
+            },
+            "whitelist": {
+              "$ref": "#/definitions/profanityList",
+            },
+            "collection": {
+              "description": "Collection of appendable string array definitions",
+              "patternProperties": {
+                "^[a-zA-Z_]+$": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                  },
+                  "description": "Array of strings"
+                }
+              },
+              "additionalProperties": false,
+            },
+            "stringBuilders": {
+              "description": "Array of string builders",
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "version": {
+                    "enum": [
+                      "basic",
+                      "extended"
+                    ],
+                    "description": "Basic or extended version"
+                  },
+                  "filter": {
+                    "enum": [
+                      "whitelist",
+                      "message",
+                      "name",
+                      "hardName"
+                    ],
+                    "description": "Type of profanity filter"
+                  },
+                  "modAction": {
+                    "enum": [
+                      "notify",
+                      "kick",
+                      "ban"
+                    ],
+                    "description": "Which moderation action should be taken?"
+                  },
+                  "separator": {
+                    "type": "string",
+                    "description": "A string that is added between each builder segment"
+                  },
+                  "builder": {
+                    "$ref": "#/definitions/stringBuilder"
+                  }
+                },
+                "patternProperties": {
+                  "^__[a-zA-Z]+$": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": false,
+              },
+            },
+          },
+        },
+      },
+    ],
+  },
+}
