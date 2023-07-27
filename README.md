@@ -202,9 +202,16 @@ const variations: string[] = (function createVariations() {
   return array.filter((v, i, arr) => arr.indexOf(v) === i);
 })();
 
+// Check if any variation matches any profanity.
+for (const variation of variations) {
+  for (const key of Object.keys(messageFilter)) {
+    if (messageFilter[key].includes(variation)) {
+      console.log("Profanity found: " + variation);
+    }
+  }
+}
+
 console.log(variations);
-// Output: [
-//   "big pen1s,", "big penis,", "big penis", "big pens",
-//   "bigpen1s,", "bigpenis,", "bigpenis", "bigpens"
-// ]
+// Output: [ "big pen1s,", "big penis,", "big penis", "big pens",
+//           "bigpen1s,",  "bigpenis,",  "bigpenis",  "bigpens" ]
 ```
