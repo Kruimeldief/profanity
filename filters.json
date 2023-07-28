@@ -1381,6 +1381,11 @@
 	"nameFilter": {
 		"NOTIFY": [
 			"preeti",
+			"mob",
+                        "herbcat",
+                        "omori",
+                        "kel_cat",
+                        "kelcat",
 			"vladland",
                         "viv.i",
 			"Bingbing",
@@ -2028,6 +2033,11 @@
 	"wordFilter": {
 		"NOTIFY": [
 			"thuwang",
+			"mob",
+                        "herbcat",
+                        "omori",
+                        "kel_cat",
+                        "kelcat",
 			"nell",
 			"broski",
 			"sonofa",
