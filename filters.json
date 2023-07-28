@@ -876,9 +876,6 @@
     }
   ],
   "basic": {
-    "__comment": [
-      "testing"
-    ],
     "__message": [
       "  • The profanity in basic `message` is applied to all incoming player messages.     ",
       "  • Notify: log the message without taking any moderation action.                    ",

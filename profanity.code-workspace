@@ -60,8 +60,19 @@
                 "^__[a-zA-Z]+$": {
                   "$ref": "#/definitions/comment"
                 },
-                "^notify|kick|ban$": {
-                  "$ref": "#/definitions/profanityList"
+              },
+              "properties": {
+                "notify": {
+                  "$ref": "#/definitions/profanityList",
+                  "title": "Notify the moderators with a Discord log"
+                },
+                "kick": {
+                  "$ref": "#/definitions/profanityList",
+                  "title": "Kick the player in-game"
+                },
+                "ban": {
+                  "$ref": "#/definitions/profanityList",
+                  "title": "Ban the player in-game"
                 }
               },
               "additionalProperties": false
@@ -73,6 +84,20 @@
                 },
                 "^message|name|hardName$": {
                   "$ref": "#/definitions/severityProperties"
+                }
+              },
+              "properties": {
+                "message": {
+                  "$ref": "#/definitions/severityProperties",
+                  "title": "Apply profanity to all incoming player messages"
+                },
+                "name": {
+                  "$ref": "#/definitions/severityProperties",
+                  "title": "Apply profanity to all player names"
+                },
+                "hardName": {
+                  "$ref": "#/definitions/severityProperties",
+                  "title": "Apply profanity by reading through all player names"
                 }
               },
               "additionalProperties": false
@@ -99,13 +124,18 @@
           "patternProperties": {
             "^__[a-zA-Z]+$": {
               "$ref": "#/definitions/comment"
-            },
-            "^basic|extended$": {
-              "$ref": "#/definitions/filterTypeProperties",
             }
           },
           "additionalProperties": false,
           "properties": {
+            "basic": {
+              "$ref": "#/definitions/filterTypeProperties",
+              "title": "Profanity version for all incoming player message objects"
+            },
+            "extended": {
+              "$ref": "#/definitions/filterTypeProperties",
+              "title": "Profanity version applied to all incoming player reports"
+            },
             "__versions": {
               "$ref": "#/definitions/enum"
             },
