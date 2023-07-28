@@ -6,23 +6,33 @@ This README.md file is kept up-to-date with any changes to the moderation script
 
 ### Index
 
-• [Message filter](#message-filter)<br/>
-• [Name filter](#name-filter)<br/>
-• [Hard name filter](#hard-name-filter)<br/>
-• [Whitelist](#whitelist)<br/>
-• [Collection](#collection)<br/>
-• [String builder](#string-builder)<br/>
-• [Variations logic](#variations-logic)<br/>
-• [Mod actions](#mod-actions)
+- [Set up Visual Studio Code](#setup-vs-code)<br/>
+- [Filters](#filters)<br/>
+  - [Message filter](#message-filter)<br/>
+  - [Name filter](#name-filter)<br/>
+  - [Hard name filter](#hard-name-filter)<br/>
+- [Whitelist](#whitelist)<br/>
+- [Collection](#collection)<br/>
+- [String builder](#string-builder)<br/>
+- [Variations logic](#variations-logic)
 
+## Setup VS Code
 
-## Message filter
+Download and install [Visual Studio Code](https://code.visualstudio.com/download) and [Git](https://git-scm.com/downloads). Then follow [these instructions](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_set-up-git-in-vs-code) on how to set up this repository locally.
+
+Once you cloned this repository locally, open it in its workspace. This is the case if project title in the file explorer (left menu) is suffixed with `(WORKSPACE)`. If this is not the case, close the project and reopen it by double clicking the file `profanity.code-workspace`.
+
+## Filters
+
+The JSON file contains 3 filters: `message`; `name`; and `hardName`. Each filter contains arrays with strings and string builders that are categorised by the properties: `notify`; `kick`; and `ban`. If you add (variations of) profanity that might result in a false positive, then you can add certain words to the `whitelist`.
+
+### Message filter
 
 The `message` filter is applied to both player messages and names.
 This filter contains 3 properties: `notify`; `kick`; and `ban`.
 Each property is an array that has both strings and string builder arrays.
 
-## Name filter
+### Name filter
 
 The `name` filter is applied to player name only.
 This filter contains 3 properties: `notify`; `kick`; and `ban`.
@@ -30,7 +40,7 @@ Each property is an array that has both strings and string builder arrays.
 
 Example of detecting part of a player name: 'I Am Gay' → 'Gay' → 'gay'
 
-## Hard name filter
+### Hard name filter
 
 The `hardName` filter is applied to player names only and
 reads through the name by use of a [Regular Expression](https://regexr.com/) (RegExp).

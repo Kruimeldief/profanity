@@ -89,11 +89,11 @@
               "properties": {
                 "message": {
                   "$ref": "#/definitions/severityProperties",
-                  "title": "Apply profanity to all incoming player messages"
+                  "title": "Apply profanity to all incoming player messages and names"
                 },
                 "name": {
                   "$ref": "#/definitions/severityProperties",
-                  "title": "Apply profanity to all player names"
+                  "title": "Apply profanity to all player names only"
                 },
                 "hardName": {
                   "$ref": "#/definitions/severityProperties",
