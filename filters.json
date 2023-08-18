@@ -1392,6 +1392,8 @@
 	"nameFilter": {
 		"NOTIFY": [
 			"preeti",
+			"child",
+			"children",
 			"mob",
                         "herbcat",
                         "omori",
@@ -2043,8 +2045,6 @@
 	"wordFilter": {
 		"NOTIFY": [
 			"thuwang",
-			"child",
-			"children",
 			"bith",
 			"mob",
                         "herbcat",
