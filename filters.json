@@ -1395,7 +1395,6 @@
 	"nameFilter": {
 		"NOTIFY": [
 			"preeti",
-			"conquistador",
 			"child",
 			"children",
 			"mob",
@@ -2051,10 +2050,6 @@
 	"wordFilter": {
 		"NOTIFY": [
 			"ßex",
-			"conquistador",
-			"conkiss",
-			"conq",
-			"aloo",
 			"kicked",
 			"thuwang",
 			"calcifer",
