@@ -2052,6 +2052,10 @@
 	"wordFilter": {
 		"NOTIFY": [
 			"ßex",
+			"moderator",
+                        "moderater",
+                        "mod",
+                        "mods",
 			"kicked",
 			"thuwang",
 			"calcifer",
