@@ -176,6 +176,8 @@
 	],
 	"whitelist": [
 			"bit c",
+		        "cockroach",
+		        "cockroaches",
 		        "ny g",
 			"bit, c",
 			"bit. c",
