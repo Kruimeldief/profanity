@@ -177,6 +177,8 @@
 	"whitelist": [
 			"bit c",
 		        "no okie",
+		        "(: ok",
+		        "c: ok",
 		        "geilenkirchen",
 		        "thorny",
 		        "cockroach",
