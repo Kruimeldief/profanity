@@ -932,6 +932,7 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"nword",
 			"빙",
 		        "howny",
 		        "fembo",
@@ -2596,8 +2597,9 @@
 			"feet smell"
 		],
 		"KICK": [
+			"retord",
 			"skeet",
-			"c-men",
+			"cmen",
 			"skeets",
 			"skeeter",
 			"skeeters",
