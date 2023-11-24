@@ -2154,6 +2154,10 @@
 	"wordFilter": {
 		"NOTIFY": [
 			"ßex",
+			"moderator",
+                        "moderater",
+                        "mod",
+                        "mods",
 			"jerking",
 			"hoar",
 			"coem",
