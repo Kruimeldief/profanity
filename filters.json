@@ -933,7 +933,6 @@
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
 			"nword",
-		        "annabor",
 		        "hotbf",
                         "hotgf",
 		        "hotboyfriend",
@@ -992,7 +991,6 @@
 		        "migger",
 			"Hugh Janus",
 		        "jeffrey epstein",
-		        "anna borshin",
 		        "anita p. ness",
 		        "hugh jazz",
 		        "ahegao",
@@ -1510,6 +1508,10 @@
 		],
 		"KICK": [
 			"urmoms",
+			"anaborshin",
+                        "anabortion",
+                        "anabortian",
+                        "anaborshan",
 			"lokingforbf",
                         "lokingforgf",
                         "lokingforboyfriend",
