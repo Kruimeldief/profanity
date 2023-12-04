@@ -175,6 +175,7 @@
 		}
 	],
 	"whitelist": [
+			"bus hit",
 			"bit c",
 		        "nigiri",
                         "onigiri",
