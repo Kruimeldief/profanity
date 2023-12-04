@@ -176,6 +176,8 @@
 	],
 	"whitelist": [
 			"bit c",
+		        "nigiri",
+                        "onigiri",
 		        "pdf file",
 		        "krystalyn",
 		        "crystalyn",
@@ -941,6 +943,7 @@
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
 			"leharveyoswald",
+		        "nigi",
 		        "peadoefile",
 			"peadofile",
 			"pedoefile",
@@ -2714,6 +2717,7 @@
 		],
 		"KICK": [
 			"bustnut",
+			"nigi",
 			"peterfile",
                         "pdfile",
 			"pebophile",
