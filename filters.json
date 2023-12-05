@@ -943,6 +943,7 @@
 	],
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
+			"aldof",
 			"leharveyoswald",
 		        "nigi",
 		        "peadoefile",
@@ -2717,6 +2718,7 @@
 			"feet smell"
 		],
 		"KICK": [
+			"aldof",
 			"whigers",
 			"whigas",
 			"whiger",
