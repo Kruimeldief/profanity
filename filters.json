@@ -944,6 +944,13 @@
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
 			"aldof",
+		        "milfhunter",
+		        "dilfhunter",
+		        "childhunter",
+		        "gfhunter",
+		        "bfhunter",
+		        "girlfriendhunter",
+		        "boyfriendhunter",
 		        "ad01f",
 			"leharveyoswald",
 		        "nigi",
@@ -2241,6 +2248,10 @@
 	"wordFilter": {
 		"NOTIFY": [
 			"ßex",
+			"moderator",
+                        "moderater",
+                        "mod",
+                        "mods",
 			"bj",
 			"weewee",
 			"cleancookies",
