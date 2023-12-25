@@ -176,6 +176,12 @@
 	],
 	"whitelist": [
 			"bus hit",
+		        "pastitsios",
+                        "pastitsos",
+                        "pastitsio",
+                        "pastitso",
+                        "bushtits",
+                        "tomtits",
 		        "gayatri",
 		        "knuckleballs",
                         "racquetballs",
@@ -1009,6 +1015,7 @@
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
 			"aldof",
+		        "tits",
 		        "testicle",
 		        "testecle",
                         "testickle",
