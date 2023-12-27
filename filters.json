@@ -176,6 +176,8 @@
 	],
 	"whitelist": [
 			"bus hit",
+		        "meniguria",
+                        "oniguruma",
 		        "pastitsios",
                         "pastitsos",
                         "pastitsio",
@@ -1015,6 +1017,7 @@
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
 			"aldof",
+		        "nigur",
 		        "[admin]",
 			"[dev]",
 			"[mod]",
