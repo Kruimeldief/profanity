@@ -1757,6 +1757,7 @@
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
 		"aldof",
+		"nonbinary",
 		"anne-us",
 		"nigur",
 		"[admin]",
