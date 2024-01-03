@@ -1,4 +1,6 @@
 {
+	"__another_comment": "Dennis was here.",
+
 	"__comment": [
 		"  • Visit the README.md file for more information on how this filter works.          ",
 		"  • Properties starting with 2 underscores are comments and not used in the script.  ",
