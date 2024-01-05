@@ -3191,11 +3191,15 @@
 	"wordFilter": {
 		"NOTIFY": [
 			"ßex",
+			"info",
+			"information",
 			"deletecokies",
 			"mcnulty",
 			"suckedmy",
 			"morgan",
 			"cougar",
+			"m0ds",
+			"m0d",
 			"moderator",
 			"moderater",
 			"moderators",
@@ -3687,6 +3691,12 @@
 		],
 		"KICK": [
 			"bjob",
+			"lmafao",
+                        "lmefao",
+                        "lmifao",
+                        "lmofao",
+                        "lmufao",
+			"lmxfao",
 			"figernagot",
 			"cuckoldries",
 			"cuckolding",
