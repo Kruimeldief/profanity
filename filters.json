@@ -3193,6 +3193,8 @@
 	},
 	"wordFilter": {
 		"NOTIFY": [
+			"juju",
+			"justin",
 			"ßex",
 			"info",
 			"information",
