@@ -913,6 +913,7 @@
 	],
 	"whitelist": [
 		"zhiet",
+		"creamn",
 		"ra and",
 		"zheit",
 		"8job",
@@ -3203,7 +3204,6 @@
 	},
 	"wordFilter": {
 		"NOTIFY": [
-			"creamπ",
 			"juju",
 			"justin",
 			"weenie",
@@ -3723,6 +3723,7 @@
 		],
 		"KICK": [
 			"enby",
+			"creamπ",
 			"itouchkids",
                         "itouchbabies",
                         "itouchgirls",
