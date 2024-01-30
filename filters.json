@@ -1774,6 +1774,7 @@
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
 		"schlampe",
+		"minorhunter",
 		"gapehorn",
 		"blacknig",
 		"raysism",
