@@ -3255,6 +3255,8 @@
 	"wordFilter": {
 		"NOTIFY": [
 			"juju",
+			"unban",
+			"unbanned",
 			"bish",
 			"sucksme",
 			"sucksmy",
