@@ -3809,6 +3809,8 @@
 			"feet smell"
 		],
 		"KICK": [
+			"gibNummer",
+			"malnummer",
 			"jetzsnap",
 			"jetzsnapchat",
 			"buewaffle",
