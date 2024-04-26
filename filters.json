@@ -913,6 +913,8 @@
 	],
 	"whitelist": [
 		"put 4",
+		"gotenlaidoff",
+                "gotlaidoff",
 		"annalee",
                 "annaleigh",
 		"put 4/4",
