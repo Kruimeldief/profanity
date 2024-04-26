@@ -913,8 +913,6 @@
 	],
 	"whitelist": [
 		"put 4",
-		"gotten laid off",
-                "got laid off",
 		"anna lee",
                 "anna leigh",
 		"put 4/4",
@@ -3314,6 +3312,8 @@
 	"wordFilter": {
 		"NOTIFY": [
 			"juju",
+			"gotenlaid",
+                        "gotlaid",
 			"fisting",
 			"shid",
 			"panis",
@@ -12688,9 +12688,7 @@
 			"googlehangout",
 			"googlemeet",
 			"gotenhead",
-			"gotenlaid",
 			"gothead",
-			"gotlaid",
 			"greatforspamming",
 			"grossrosen",
 			"guess-a-sketch.io",
