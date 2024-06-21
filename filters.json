@@ -1818,6 +1818,8 @@
 	"__hardNameFilter": "The hard name filter reads through player names and only kicks a player, never ban.",
 	"hardNameFilter": [
 		"fagboy",
+		"smellfeet",
+		"creepyuncle",
 		"toucher",
                 "kitler",
 		"egonkowalski",
@@ -2620,7 +2622,6 @@
 		],
 		"KICK": [
 			"digger",
-			"smellfeet",
 			"sezmoneydrug$",
                         "seksmoneydrug$",
                         "sezmoneydrugs",
