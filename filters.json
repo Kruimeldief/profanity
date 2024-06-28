@@ -913,6 +913,7 @@
 	],
 	"whitelist": [
 		"put 4",
+		"peacock",
 		"req in",
 		"minigame",
 		"minigames",
